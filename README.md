@@ -1,5 +1,3 @@
-# qwat-import-sample
-
 # Importing data into Qwat – The Qgis expression way
 
 ## Abstract
