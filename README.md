@@ -96,7 +96,7 @@ and more
 dbquery( 'conduites - matériaux','id',  'diameter_external > 160 ')
 ```
 
-Look at the sample import data for a working list of mandatory field.
+Look at the [sample import data](https://github.com/nliaudat/qwat-import-sample/raw/master/qwat-import-sample/sample_virtual_fields/) for a working list of mandatory field.
 
 You need to respect some import order  (valve must clip on pipes, etc)
 
