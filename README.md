@@ -1,7 +1,9 @@
 # Importing data into Qwat – The Qgis expression way
 
 ## Abstract
-The approach chosen is to add virtual field to our initial data, using qgis expression1 to adapt the values to qgis data model in a graphical way. 
+<img align="right" width="132" height="184" src="https://github.com/nliaudat/qwat-import-sample/raw/master/documentation/imgs/virtual_field.png">
+
+The approach chosen is to add virtual field to our initial data, using [Qgis expressions](https://docs.qgis.org/2.18/fr/docs/user_manual/working_with_vector/expression.html) to adapt the values to qgis data model in a graphical way. 
 
 The advantage is no need to make complex postgresql queries and errors can be corrected on the fly before final import. 
 
@@ -11,6 +13,8 @@ INSERT INTO qwat_od.pipe FROM my_pipe_import;
 ```
 
 ## Prerequisites
+<img align="right" width="500" height="280" src="https://github.com/nliaudat/qwat-import-sample/raw/master/documentation/imgs/district.png">
+
 Some layers need to be filled before importing any data.
 
 Populate the distributor, district and pressurezone tables with your own data. 
@@ -18,7 +22,7 @@ Populate the distributor, district and pressurezone tables with your own data.
 In early step, district and pressurezone can be town limits.
 
 Keep in mind the distributor's id. It will be used in imports later.
-If you want custom id, it's recommended to keep values > 100002
+If you want custom id, it's recommended to keep values > 10000
 
 District and pressurezone linked id will be calculated in virtual fields using the following function : 
 ```
@@ -43,12 +47,16 @@ INSERT INTO qwat_vl.pipe_material (id, vl_active, short_fr, value_fr, diameter, 
 You'll perhaps have to add your own or adapt. 
 For small changes, you could directly add pipe material by editing the corresponding auxiliary table
 
+<img width="446" height="203" src="https://github.com/nliaudat/qwat-import-sample/raw/master/documentation/imgs/pipe_material.png">
+
 
 
 ## Loading initial data
 
+<img align="right" width="274" height="210" src="https://github.com/nliaudat/qwat-import-sample/raw/master/documentation/imgs/aquafri_tables.png">
+
 As sample, we use AquaFri esri file geodatabase which is use in canton Fribourg.
-Load the MN95 converted 3AquaFri gdb into qgis and save all tables as distinct geopackage in UTF8. 4
+Load the MN95 converted AquaFri gdb into qgis and save all tables as distinct geopackage in UTF8. 
 
 The “Topology checker” plugin can help correcting bad or duplicate geometries.
 
@@ -56,11 +64,13 @@ The “Topology checker” plugin can help correcting bad or duplicate geometrie
 
 If you have no or incomplete altimetric data, you could use a DEM to approximate the missing values.
 
-For pipes, you could convert data to 3D with the grass v.drape function. As example you can play with the scale factor (0.99825 if you want subtract approx. 1.4m from the DEM at 800m). 
+For pipes, you could convert data to 3D with the grass [v.drape](https://grass.osgeo.org/grass72/manuals/v.drape.html) function. As example you can play with the scale factor (0.99825 if you want subtract approx. 1.4m from the DEM at 800m). 
 
-For points (hydrant, valve, etc) you could use “Points sampling tool plugin”5 to get missing Z values in another layer, and join it to the layer. Update the corresponding fk_precisionalti field to say that the altimetric value is approximated.
+For points (hydrant, valve, etc) you could use [Points sampling tool plugin](https://github.com/borysiasty/pointsamplingtool) to get missing Z values in another layer, and join it to the layer. Update the corresponding fk_precisionalti field to say that the altimetric value is approximated.
 
 ## The Virtual field 
+
+<img width="471" height="426" src="https://github.com/nliaudat/qwat-import-sample/raw/master/documentation/imgs/add_virtual_field.png">
 
 You can add the mandatory virtual field in layer properties.
 
@@ -68,6 +78,7 @@ https://rawgit.com/qwat/qwat-data-model/master/diagram/index.html give the Qwat 
 
 You can list your distinct existing field value directly in Qgis expression editor
 
+<img width="393" height="285" src="https://github.com/nliaudat/qwat-import-sample/raw/master/documentation/imgs/existing_field_values.png">
 
 A CASE WHEN expression suits for 95% of the job : 
 ```
