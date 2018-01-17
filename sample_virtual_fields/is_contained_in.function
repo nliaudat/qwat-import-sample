@@ -1,0 +1,13 @@
+from qgis.core import *
+from qgis.gui import *
+
+@qgsfunction(args='auto', group='Custom')
+def is_contained_in(layername, column, feature, parent):
+    layer = QgsMapLayerRegistry.instance().mapLayersByName(layername)[0]
+    for feat in layer.getFeatures():
+        if feature.geometry().within(feat.geometry()):
+            return feat[column]
+			
+			
+			
+	==>		is_contained_in('Zones de pression','id')
