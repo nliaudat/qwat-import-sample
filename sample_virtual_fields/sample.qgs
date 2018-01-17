@@ -1,0 +1,1867 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.15">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="pipe20180117104944737" source="./sample_virtual_fields/pipe.gpkg|layername=pipe" name="pipe">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="hydrant20180117105053779" source="./sample_virtual_fields/hydrant.gpkg|layername=hydrant" name="hydrant">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="valve20180117104959571" source="./sample_virtual_fields/valve.gpkg|layername=valve" name="valve">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>2555014.92481394531205297</xmin>
+      <ymin>1152210.94740909966640174</ymin>
+      <xmax>2555546.65137644531205297</xmax>
+      <ymax>1152748.58022159966640174</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>0</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>47</srsid>
+        <srid>2056</srid>
+        <authid>EPSG:2056</authid>
+        <description>CH1903+ / LV95</description>
+        <projectionacronym>somerc</projectionacronym>
+        <ellipsoidacronym>bessel</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info/>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>pipe20180117104944737</item>
+      <item>valve20180117104959571</item>
+      <item>hydrant20180117105053779</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="pipe" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="pipe20180117104944737" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="hydrant" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="hydrant20180117105053779" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="valve" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="valve20180117104959571" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>hydrant20180117105053779</id>
+      <datasource>./hydrant.gpkg|layername=hydrant</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>hydrant</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>bessel</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields>
+        <field typeName="int2" precision="0" expression="/*&#xd;&#xa;101&#x9;t&#x9;&#x9;&#x9;&#x9;autre&#xd;&#xa;102&#x9;t&#x9;&#x9;&#x9;&#x9;inconnu&#xd;&#xa;103&#x9;t&#x9;&#x9;&#x9;&#x9;Ã  dÃ©terminer&#xd;&#xa;7101&#x9;t&#x9;&#x9;&#x9;&#x9;+GF+&#xd;&#xa;7102&#x9;t&#x9;&#x9;&#x9;&#x9;Wild&#xd;&#xa;7103&#x9;t&#x9;&#x9;&#x9;&#x9;Hawie&#xd;&#xa;7104&#x9;t&#x9;&#x9;&#x9;&#x9;Erhard&#xd;&#xa;7105&#x9;t&#x9;&#x9;&#x9;&#x9;SISTAG&#xd;&#xa;7106&#x9;t&#x9;&#x9;&#x9;&#x9;Von Roll&#xd;&#xa;7107&#x9;t&#x9;&#x9;&#x9;&#x9;Straub&#xd;&#xa;7108&#x9;t&#x9;&#x9;&#x9;&#x9;Hinni&#xd;&#xa;7109&#x9;t&#x9;&#x9;&#x9;&#x9;AVK&#xd;&#xa;*/&#xd;&#xa;CASE &#xd;&#xa;WHEN &quot;remarque&quot; like '%Von Roll%' THEN 7106 &#xd;&#xa;WHEN &quot;remarque&quot; like '%Hinni%' THEN 7108&#xd;&#xa;ELSE 103 &#xd;&#xa;END" length="-1" type="2" comment="" name="fk_provider"/>
+        <field typeName="int2" precision="0" expression="/*&#xd;&#xa;101&#x9;t&#x9;&#x9;&#x9;&#x9;autre&#xd;&#xa;102&#x9;t&#x9;&#x9;&#x9;&#x9;inconnu&#xd;&#xa;103&#x9;t&#x9;&#x9;&#x9;&#x9;Ã  dÃ©terminer&#xd;&#xa;7201&#x9;t&#x9;&#x9;&#x9;&#x9;Hawle&#xd;&#xa;7202&#x9;t&#x9;&#x9;&#x9;&#x9;Hawle_H4&#xd;&#xa;7203&#x9;t&#x9;&#x9;&#x9;&#x9;Hinni&#xd;&#xa;7204&#x9;t&#x9;&#x9;&#x9;&#x9;Hinni_6000&#xd;&#xa;7205&#x9;t&#x9;&#x9;&#x9;&#x9;Hinni_6006&#xd;&#xa;7206&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll&#xd;&#xa;7207&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_4105_Mod_1896&#xd;&#xa;7208&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_4107_Mod_1935&#xd;&#xa;7209&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_7500_Mod_1955&#xd;&#xa;7210&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_7502_Mod_1970&#xd;&#xa;7211&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_Hy_classic_Serie_5500&#xd;&#xa;7212&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_Hy_plus_Serie_5700&#xd;&#xa;7213&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_Hy_5000s_Serie_5400_Cobra&#xd;&#xa;7214&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_Hy_deco_Mod_1896_Nostalgie&#xd;&#xa;7215&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_Hytec_5601&#xd;&#xa;7216&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_Hytec_5602&#xd;&#xa;7217&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_Hytec_5603&#xd;&#xa;7218&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_Hytec_5607&#xd;&#xa;7219&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_5000_Mod_1989&#xd;&#xa;&#xd;&#xa;*/&#xd;&#xa;CASE &#xd;&#xa;WHEN &quot;remarque&quot; like '%Hinni 6000%' THEN 7204&#xd;&#xa;WHEN &quot;remarque&quot; like '%Hinni 6006%' THEN 7205&#xd;&#xa;WHEN &quot;remarque&quot; like '%1955%' THEN 7209&#xd;&#xa;WHEN &quot;remarque&quot; like '%1970%' THEN 7210&#xd;&#xa;WHEN &quot;remarque&quot; like '%5000%' THEN 7219&#xd;&#xa;ELSE 103 &#xd;&#xa;END&#xd;&#xa;&#xd;&#xa;" length="-1" type="2" comment="" name="fk_model_sup"/>
+        <field typeName="int2" precision="0" expression="/*&#xd;&#xa;101&#x9;t&#x9;&#x9;&#x9;&#x9;autre&#xd;&#xa;102&#x9;t&#x9;&#x9;&#x9;&#x9;inconnu&#xd;&#xa;103&#x9;t&#x9;&#x9;&#x9;&#x9;Ã  dÃ©terminer&#xd;&#xa;7301&#x9;t&#x9;&#x9;&#x9;&#x9;Hawle&#xd;&#xa;7302&#x9;t&#x9;&#x9;&#x9;&#x9;Hawle_H4&#xd;&#xa;7303&#x9;t&#x9;&#x9;&#x9;&#x9;Hinni&#xd;&#xa;7304&#x9;t&#x9;&#x9;&#x9;&#x9;Hinni_Standard&#xd;&#xa;7305&#x9;t&#x9;&#x9;&#x9;&#x9;Hinri_Double_fermeture&#xd;&#xa;7306&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll&#xd;&#xa;7307&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_4105_Mod_1896&#xd;&#xa;7308&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_4107_Mod_1935&#xd;&#xa;7309&#x9;t&#x9;&#x9;&#x9;&#x9;VonRolI_7500&#xd;&#xa;7310&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_5500&#xd;&#xa;7311&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_fix&#xd;&#xa;7312&#x9;t&#x9;&#x9;&#x9;&#x9;VonFloll_reglable&#xd;&#xa;7313&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_vario&#xd;&#xa;7314&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_ufFix&#xd;&#xa;7315&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_varial&#xd;&#xa;7316&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_1955&#xd;&#xa;7317&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_1989_5000&#xd;&#xa;7318&#x9;t&#x9;&#x9;&#x9;&#x9;VonRoll_2007_5000&#xd;&#xa;*/&#xd;&#xa;CASE &#xd;&#xa;WHEN &quot;remarque&quot; like '%Hinni%' THEN 7303&#xd;&#xa;WHEN &quot;remarque&quot; like '%Von Roll%' THEN 7306&#xd;&#xa;ELSE 103 &#xd;&#xa;END&#xd;&#xa;&#xd;&#xa;" length="-1" type="2" comment="" name="fk_model_inf"/>
+        <field typeName="int2" precision="0" expression="103" length="-1" type="2" comment="" name="fk_material"/>
+        <field typeName="int2" precision="0" expression="/*&#xd;&#xa;101&#x9;t&#x9;&#x9;&#x9;&#x9;autre&#xd;&#xa;102&#x9;t&#x9;&#x9;&#x9;&#x9;inconnu&#xd;&#xa;103&#x9;t&#x9;&#x9;&#x9;&#x9;Ã  dÃ©terminer&#xd;&#xa;7401&#x9;t&#x9;&#x9;&#x9;&#x9;1x75&#xd;&#xa;7402&#x9;t&#x9;&#x9;&#x9;&#x9;2x75&#xd;&#xa;7403&#x9;t&#x9;&#x9;&#x9;&#x9;3x75&#xd;&#xa;7404&#x9;t&#x9;&#x9;&#x9;&#x9;2x55&#xd;&#xa;7405&#x9;t&#x9;&#x9;&#x9;&#x9;1x55_1x75&#xd;&#xa;7406&#x9;t&#x9;&#x9;&#x9;&#x9;2x55_1x75&#xd;&#xa;7407&#x9;t&#x9;&#x9;&#x9;&#x9;2x55_1x100&#xd;&#xa;*/&#xd;&#xa;&#xd;&#xa;CASE &#xd;&#xa;WHEN  &quot;diam_sorties&quot;  =  '2 x 55' THEN 7404 &#xd;&#xa;WHEN  &quot;diam_sorties&quot;  =   '2 x 75'  THEN 7402&#xd;&#xa;--WHEN  &quot;diam_sorties&quot;  =   '55'  THEN 101&#xd;&#xa;WHEN   &quot;nbr_sorties&quot; =  'un' AND &quot;diam_sorties&quot;  =   '55'  THEN 101&#xd;&#xa;WHEN   &quot;nbr_sorties&quot; =   'deux'  AND &quot;diam_sorties&quot;  =   '55'  THEN 7404&#xd;&#xa;WHEN  &quot;diam_sorties&quot;  =   '75' THEN 7401&#xd;&#xa;WHEN   &quot;nbr_sorties&quot; =  'un' AND &quot;diam_sorties&quot;  =   '75'  THEN 7401&#xd;&#xa;WHEN   &quot;nbr_sorties&quot; =   'deux'  AND &quot;diam_sorties&quot;  =   '75'  THEN 7402&#xd;&#xa;ELSE 103&#xd;&#xa;END&#xd;&#xa;&#xd;&#xa; " length="-1" type="2" comment="" name="fk_output"/>
+        <field typeName="int2" precision="0" expression="CASE WHEN &quot;type_hydrant&quot; = 'hydrant souterrain' THEN 1 &#xd;&#xa;ELSE 0&#xd;&#xa;END" length="-1" type="2" comment="" name="underground"/>
+        <field typeName="int2" precision="0" expression="null" length="-1" type="2" comment="" name="marked"/>
+        <field typeName="double" precision="5" expression=" &quot;p_statique&quot; " length="6" type="6" comment="" name="pressure_static"/>
+        <field typeName="double" precision="5" expression=" &quot;p_dynamique&quot;" length="6" type="6" comment="" name="pressure_dynamic"/>
+        <field typeName="double" precision="5" expression=" &quot;q_dynamique&quot; " length="6" type="6" comment="" name="flow"/>
+        <field typeName="int2" precision="0" expression="null" length="-1" type="2" comment="" name="observation_date"/>
+        <field typeName="text" precision="-1" expression="null" length="-1" type="10" comment="" name="observation_source"/>
+        <field typeName="text" precision="-1" expression=" &quot;no_hydrant&quot;" length="-1" type="10" comment="" name="identification"/>
+        <field typeName="int2" precision="0" expression="/*&#xd;&#xa;Numero N°OFS&#xd;&#xa;Association a partir de 20'001&#xd;&#xa;*/&#xd;&#xa;CASE &#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'AGSO'  THEN 20001&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'AIEJ'  THEN 20002&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'AISFE' THEN 20003&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'AVGG' THEN 20004&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'CREB' THEN 20005&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'DDPS' THEN 20006&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'GAGEC' THEN 20007&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'GAGN' THEN 20008&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'GAME' THEN 20009&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Les Barussels' THEN 20010&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'SIGE'  THEN 20011&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'TPF' THEN 20012&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Attalens' THEN 2321&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Auboranges' THEN 2061&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Bossonnens' THEN 2323&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Chapelle' THEN 2066&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Châtel-St-Denis' THEN 2325&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Dompierre VD' THEN 5671&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Granges'  THEN 2328&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Grangettes' THEN 2079&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'La Brillaz' THEN 2234&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'La Verrerie' THEN 2338&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Le Flon' THEN 2337&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Le Mouret' THEN 2220&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Mézières' THEN 2087&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Neyruz' THEN 2211&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Oron' THEN 5793&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Remaufens' THEN 2333&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Romont'  THEN 2096&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Rue' THEN 2097&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Saint-Martin' THEN 2335&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Sâles' THEN 2152&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Semsales' THEN 2336&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Siviriez'  THEN 2099&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Ursy' THEN 2102&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Vuisternens-devant-Romont' THEN 2113&#xd;&#xa;ELSE 1 END" length="-1" type="2" comment="" name="fk_distributor"/>
+        <field typeName="int2" precision="0" expression="/*&#xd;&#xa;101&#x9;autre&#xd;&#xa;102&#x9;inconnu&#xd;&#xa;103&#x9;A déterminer&#xd;&#xa;1307&#x9;fictif&#xd;&#xa;1303&#x9;désaffecté&#xd;&#xa;1305&#x9;détruit&#xd;&#xa;1302 hors service&#xd;&#xa;1301 en service&#xd;&#xa;1304 abandonné&#xd;&#xa;1306 projet&#xd;&#xa;*/&#xd;&#xa;CASE &#xd;&#xa;WHEN  &quot;etat_exploitation&quot;  =  'ES'  THEN 1301&#xd;&#xa;WHEN &quot;etat_exploitation&quot; =   'PL'  THEN 1306&#xd;&#xa;ELSE 103 &#xd;&#xa;END&#xd;&#xa;" length="-1" type="2" comment="" name="fk_status"/>
+        <field typeName="int2" precision="0" expression=" &quot;dossier_id&quot; " length="-1" type="2" comment="" name="fk_folder"/>
+        <field typeName="int2" precision="0" expression="null" length="-1" type="2" comment="" name="fk_locationtype"/>
+        <field typeName="int2" precision="0" expression="/*&#xd;&#xa;101&#x9;autre&#xd;&#xa;102&#x9;inconnu&#xd;&#xa;103&#x9;A déterminer&#xd;&#xa;1101&#x9;Imprécis&#xd;&#xa;1102&#x9;Précis&#xd;&#xa;1103&#x9;Localisé&#xd;&#xa;1104&#x9;Digitalisé&#xd;&#xa;*/&#xd;&#xa;CASE &#xd;&#xa;WHEN&quot;precision_plan&quot; = 'precis' THEN 1102&#xd;&#xa;WHEN&quot;precision_plan&quot; =  'imprecis' THEN 1101&#xd;&#xa;ELSE 103 END" length="-1" type="2" comment="" name="fk_precision"/>
+        <field typeName="int2" precision="0" expression="1121" length="-1" type="2" comment="" name="fk_precisionalti"/>
+        <field typeName="int2" precision="0" expression="103" length="-1" type="2" comment="" name="fk_object_reference"/>
+        <field typeName="int2" precision="0" expression="--is_contained_in( 'Zones de pression','id')&#xd;&#xa;null" length="-1" type="2" comment="" name="fk_pressurezone"/>
+        <field typeName="int2" precision="0" expression="&quot;annee_construction&quot; " length="-1" type="2" comment="" name="year"/>
+        <field typeName="int2" precision="0" expression="null" length="-1" type="2" comment="" name="year_end"/>
+        <field typeName="int2" precision="0" expression="--is_contained_in( 'communes','id')&#xd;&#xa;null" length="-1" type="2" comment="" name="fk_district"/>
+        <field typeName="int2" precision="0" expression="null" length="-1" type="2" comment="" name="fk_pressurezone"/>
+        <field typeName="string" precision="0" expression="'remarque : ' ||  coalesce( &quot;remarque&quot;  ,'') || '\n\n'  || &#xd;&#xa;'q_2bars : ' ||  coalesce(   &quot;q_2bars&quot;   ,'') || '\n'  || &#xd;&#xa;'q_3bars : ' ||  coalesce(   &quot;q_3bars&quot;   ,'') || '\n'  || &#xd;&#xa;'p_stat_futur : ' ||  coalesce(    &quot;p_stat_futur&quot;   ,'') || '\n'  || &#xd;&#xa;'q_3bars_futur : ' ||  coalesce(    &quot;q_3bars_futur&quot;   ,'') &#xd;&#xa;" length="500" type="10" comment="" name="remark"/>
+      </expressionfields>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="fid">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="no_hydrant">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="type_hydrant">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="nbr_sorties">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="diam_sorties">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vidange_auto">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="p_statique">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="p_dynamique">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="q_dynamique">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="resp_entretien">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="annee_construction">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="precision_plan">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="proprietaire">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="etat_exploitation">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="remarque">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="zone_pression">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="dossier_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="altitude">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="q_2bars">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="q_3bars">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="p_stat_futur">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="q_3bars_futur">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_provider">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_model_sup">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_model_inf">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_material">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_output">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="underground">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="marked">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pressure_static">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pressure_dynamic">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="flow">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="observation_date">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="observation_source">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="identification">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_distributor">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_status">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_folder">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_locationtype">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_precision">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_precisionalti">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_object_reference">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_pressurezone">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="year">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="year_end">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_district">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="remark">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="140,127,178,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="8.25"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="3"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Normal"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="6"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>fid</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Étiquette"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>.</annotationform>
+      <aliases>
+        <alias field="fid" index="0" name=""/>
+        <alias field="no_hydrant" index="1" name=""/>
+        <alias field="type_hydrant" index="2" name=""/>
+        <alias field="nbr_sorties" index="3" name=""/>
+        <alias field="diam_sorties" index="4" name=""/>
+        <alias field="vidange_auto" index="5" name=""/>
+        <alias field="p_statique" index="6" name=""/>
+        <alias field="p_dynamique" index="7" name=""/>
+        <alias field="q_dynamique" index="8" name=""/>
+        <alias field="resp_entretien" index="9" name=""/>
+        <alias field="annee_construction" index="10" name=""/>
+        <alias field="precision_plan" index="11" name=""/>
+        <alias field="proprietaire" index="12" name=""/>
+        <alias field="etat_exploitation" index="13" name=""/>
+        <alias field="remarque" index="14" name=""/>
+        <alias field="zone_pression" index="15" name=""/>
+        <alias field="dossier_id" index="16" name=""/>
+        <alias field="altitude" index="17" name=""/>
+        <alias field="q_2bars" index="18" name=""/>
+        <alias field="q_3bars" index="19" name=""/>
+        <alias field="p_stat_futur" index="20" name=""/>
+        <alias field="q_3bars_futur" index="21" name=""/>
+        <alias field="fk_provider" index="22" name=""/>
+        <alias field="fk_model_sup" index="23" name=""/>
+        <alias field="fk_model_inf" index="24" name=""/>
+        <alias field="fk_material" index="25" name=""/>
+        <alias field="fk_output" index="26" name=""/>
+        <alias field="underground" index="27" name=""/>
+        <alias field="marked" index="28" name=""/>
+        <alias field="pressure_static" index="29" name=""/>
+        <alias field="pressure_dynamic" index="30" name=""/>
+        <alias field="flow" index="31" name=""/>
+        <alias field="observation_date" index="32" name=""/>
+        <alias field="observation_source" index="33" name=""/>
+        <alias field="identification" index="34" name=""/>
+        <alias field="fk_distributor" index="35" name=""/>
+        <alias field="fk_status" index="36" name=""/>
+        <alias field="fk_folder" index="37" name=""/>
+        <alias field="fk_locationtype" index="38" name=""/>
+        <alias field="fk_precision" index="39" name=""/>
+        <alias field="fk_precisionalti" index="40" name=""/>
+        <alias field="fk_object_reference" index="41" name=""/>
+        <alias field="fk_pressurezone" index="42" name=""/>
+        <alias field="year" index="43" name=""/>
+        <alias field="year_end" index="44" name=""/>
+        <alias field="fk_district" index="45" name=""/>
+        <alias field="remark" index="46" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="fid"/>
+          <column width="-1" hidden="0" type="field" name="no_hydrant"/>
+          <column width="-1" hidden="0" type="field" name="type_hydrant"/>
+          <column width="-1" hidden="0" type="field" name="nbr_sorties"/>
+          <column width="-1" hidden="0" type="field" name="diam_sorties"/>
+          <column width="-1" hidden="0" type="field" name="vidange_auto"/>
+          <column width="-1" hidden="0" type="field" name="p_statique"/>
+          <column width="-1" hidden="0" type="field" name="p_dynamique"/>
+          <column width="-1" hidden="0" type="field" name="q_dynamique"/>
+          <column width="-1" hidden="0" type="field" name="resp_entretien"/>
+          <column width="-1" hidden="0" type="field" name="annee_construction"/>
+          <column width="-1" hidden="0" type="field" name="precision_plan"/>
+          <column width="-1" hidden="0" type="field" name="proprietaire"/>
+          <column width="-1" hidden="0" type="field" name="etat_exploitation"/>
+          <column width="-1" hidden="0" type="field" name="remarque"/>
+          <column width="-1" hidden="0" type="field" name="zone_pression"/>
+          <column width="-1" hidden="0" type="field" name="dossier_id"/>
+          <column width="-1" hidden="0" type="field" name="altitude"/>
+          <column width="-1" hidden="0" type="field" name="q_2bars"/>
+          <column width="-1" hidden="0" type="field" name="q_3bars"/>
+          <column width="-1" hidden="0" type="field" name="p_stat_futur"/>
+          <column width="-1" hidden="0" type="field" name="q_3bars_futur"/>
+          <column width="-1" hidden="1" type="actions"/>
+          <column width="-1" hidden="0" type="field" name="fk_provider"/>
+          <column width="-1" hidden="0" type="field" name="fk_model_sup"/>
+          <column width="-1" hidden="0" type="field" name="fk_model_inf"/>
+          <column width="-1" hidden="0" type="field" name="fk_material"/>
+          <column width="-1" hidden="0" type="field" name="fk_output"/>
+          <column width="-1" hidden="0" type="field" name="underground"/>
+          <column width="-1" hidden="0" type="field" name="marked"/>
+          <column width="-1" hidden="0" type="field" name="pressure_static"/>
+          <column width="-1" hidden="0" type="field" name="pressure_dynamic"/>
+          <column width="-1" hidden="0" type="field" name="flow"/>
+          <column width="-1" hidden="0" type="field" name="observation_date"/>
+          <column width="-1" hidden="0" type="field" name="observation_source"/>
+          <column width="-1" hidden="0" type="field" name="identification"/>
+          <column width="-1" hidden="0" type="field" name="fk_distributor"/>
+          <column width="-1" hidden="0" type="field" name="fk_status"/>
+          <column width="-1" hidden="0" type="field" name="fk_folder"/>
+          <column width="-1" hidden="0" type="field" name="fk_locationtype"/>
+          <column width="-1" hidden="0" type="field" name="fk_precision"/>
+          <column width="-1" hidden="0" type="field" name="fk_precisionalti"/>
+          <column width="-1" hidden="0" type="field" name="fk_object_reference"/>
+          <column width="-1" hidden="0" type="field" name="fk_pressurezone"/>
+          <column width="-1" hidden="0" type="field" name="year"/>
+          <column width="-1" hidden="0" type="field" name="year_end"/>
+          <column width="-1" hidden="0" type="field" name="fk_district"/>
+          <column width="-1" hidden="0" type="field" name="remark"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
+
+Utilisez cette fonction pour ajouter plus de fonctionnalités à vos formulaires.
+
+Entrez le nom de la fonction dans le champ "Fonction d'initialisation Python".
+Voici un exemple à suivre:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="fid" expression=""/>
+        <default field="no_hydrant" expression=""/>
+        <default field="type_hydrant" expression=""/>
+        <default field="nbr_sorties" expression=""/>
+        <default field="diam_sorties" expression=""/>
+        <default field="vidange_auto" expression=""/>
+        <default field="p_statique" expression=""/>
+        <default field="p_dynamique" expression=""/>
+        <default field="q_dynamique" expression=""/>
+        <default field="resp_entretien" expression=""/>
+        <default field="annee_construction" expression=""/>
+        <default field="precision_plan" expression=""/>
+        <default field="proprietaire" expression=""/>
+        <default field="etat_exploitation" expression=""/>
+        <default field="remarque" expression=""/>
+        <default field="zone_pression" expression=""/>
+        <default field="dossier_id" expression=""/>
+        <default field="altitude" expression=""/>
+        <default field="q_2bars" expression=""/>
+        <default field="q_3bars" expression=""/>
+        <default field="p_stat_futur" expression=""/>
+        <default field="q_3bars_futur" expression=""/>
+        <default field="fk_provider" expression=""/>
+        <default field="fk_model_sup" expression=""/>
+        <default field="fk_model_inf" expression=""/>
+        <default field="fk_material" expression=""/>
+        <default field="fk_output" expression=""/>
+        <default field="underground" expression=""/>
+        <default field="marked" expression=""/>
+        <default field="pressure_static" expression=""/>
+        <default field="pressure_dynamic" expression=""/>
+        <default field="flow" expression=""/>
+        <default field="observation_date" expression=""/>
+        <default field="observation_source" expression=""/>
+        <default field="identification" expression=""/>
+        <default field="fk_distributor" expression=""/>
+        <default field="fk_status" expression=""/>
+        <default field="fk_folder" expression=""/>
+        <default field="fk_locationtype" expression=""/>
+        <default field="fk_precision" expression=""/>
+        <default field="fk_precisionalti" expression=""/>
+        <default field="fk_object_reference" expression=""/>
+        <default field="fk_pressurezone" expression=""/>
+        <default field="year" expression=""/>
+        <default field="year_end" expression=""/>
+        <default field="fk_district" expression=""/>
+        <default field="remark" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>pipe20180117104944737</id>
+      <datasource>./pipe.gpkg|layername=pipe</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>pipe</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>bessel</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields>
+        <field typeName="int2" precision="0" expression="null" length="-1" type="2" comment="" name="fk_parent"/>
+        <field typeName="int2" precision="0" expression="/*&#xd;&#xa;101&#x9;autre&#xd;&#xa;102&#x9;inconnu&#xd;&#xa;103&#x9;A déterminer&#xd;&#xa;4101&#x9;Conduite de transport&#xd;&#xa;4102&#x9;Conduite d'hydrant&#xd;&#xa;4103&#x9;Conduite de vidange&#xd;&#xa;4105&#x9;Conduite de distribution&#xd;&#xa;4106&#x9;Branchement commun&#xd;&#xa;4107&#x9;By-pass&#xd;&#xa;4108&#x9;Branchement privé&#xd;&#xa;4109&#x9;Conduite de haute pression&#xd;&#xa;4110&#x9;Drain captant&#xd;&#xa;4111&#x9;Trop plein&#xd;&#xa;4112&#x9;Ventilation&#xd;&#xa;*/&#xd;&#xa;CASE &#xd;&#xa;WHEN &quot;fonction_conduite&quot; =  'conduite de branchement' THEN 4108&#xd;&#xa;WHEN &quot;fonction_conduite&quot; =  'conduite de captage' THEN 4110&#xd;&#xa;WHEN &quot;fonction_conduite&quot; =  'conduite de distribution'  THEN 4105&#xd;&#xa;WHEN &quot;fonction_conduite&quot; =  'conduite de hydrant'  THEN 4102&#xd;&#xa;WHEN &quot;fonction_conduite&quot; =  'conduite de transport' THEN 4101&#xd;&#xa;WHEN &quot;fonction_conduite&quot; =  'conduite de vidange' THEN 4103&#xd;&#xa;WHEN &quot;fonction_conduite&quot; =  'conduite interne'  THEN 103&#xd;&#xa;ELSE 103 END" length="-1" type="2" comment="" name="fk_function"/>
+        <field typeName="int2" precision="0" expression="103" length="-1" type="2" comment="" name="fk_installmethod"/>
+        <field typeName="int2" precision="0" expression="/*&#xd;&#xa;Numero N°OFS pour communes&#xd;&#xa;Association a partir de 20'001&#xd;&#xa;*/&#xd;&#xa;CASE &#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'AGSO'  THEN 20001&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'AIEJ'  THEN 20002&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'AISFE' THEN 20003&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'AVGG' THEN 20004&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'CREB' THEN 20005&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'DDPS' THEN 20006&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'GAGEC' THEN 20007&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'GAGN' THEN 20008&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'GAME' THEN 20009&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Les Barussels' THEN 20010&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'SIGE'  THEN 20011&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'TPF' THEN 20012&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Attalens' THEN 2321&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Auboranges' THEN 2061&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Bossonnens' THEN 2323&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Chapelle' THEN 2066&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Châtel-St-Denis' THEN 2325&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Dompierre VD' THEN 5671&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Granges'  THEN 2328&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Grangettes' THEN 2079&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'La Brillaz' THEN 2234&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'La Verrerie' THEN 2338&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Le Flon' THEN 2337&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Le Mouret' THEN 2220&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Mézières' THEN 2087&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Neyruz' THEN 2211&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Oron' THEN 5793&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Remaufens' THEN 2333&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Romont'  THEN 2096&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Rue' THEN 2097&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Saint-Martin' THEN 2335&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Sâles' THEN 2152&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Semsales' THEN 2336&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Siviriez'  THEN 2099&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Ursy' THEN 2102&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Vuisternens-devant-Romont' THEN 2113&#xd;&#xa;ELSE 1 END" length="-1" type="2" comment="" name="fk_distributor"/>
+        <field typeName="int2" precision="0" expression="/*&#xd;&#xa;101&#x9;autre&#xd;&#xa;102&#x9;inconnu&#xd;&#xa;103&#x9;A déterminer&#xd;&#xa;1101&#x9;Imprécis&#xd;&#xa;1102&#x9;Précis&#xd;&#xa;1103&#x9;Localisé&#xd;&#xa;1104&#x9;Digitalisé&#xd;&#xa;*/&#xd;&#xa;CASE &#xd;&#xa;WHEN&quot;precision_plan&quot; = 'precis' THEN 1102&#xd;&#xa;WHEN&quot;precision_plan&quot; =  'imprecis' THEN 1101&#xd;&#xa;ELSE 103 END" length="-1" type="2" comment="" name="fk_precision"/>
+        <field typeName="int2" precision="0" expression="103" length="-1" type="2" comment="" name="fk_bedding"/>
+        <field typeName="int2" precision="0" expression="103" length="-1" type="2" comment="" name="fk_protection"/>
+        <field typeName="int2" precision="0" expression="/*&#xd;&#xa;101&#x9;autre&#xd;&#xa;102&#x9;inconnu&#xd;&#xa;103&#x9;A déterminer&#xd;&#xa;1307&#x9;fictif&#xd;&#xa;1303&#x9;désaffecté&#xd;&#xa;1305&#x9;détruit&#xd;&#xa;1302 hors service&#xd;&#xa;1301 en service&#xd;&#xa;1304 abandonné&#xd;&#xa;1306 projet&#xd;&#xa;*/&#xd;&#xa;CASE &#xd;&#xa;WHEN  &quot;etat_exploitation&quot;  =  'en service'  THEN 1301&#xd;&#xa;WHEN &quot;etat_exploitation&quot; =  'hors service' THEN 1302&#xd;&#xa;WHEN &quot;etat_exploitation&quot; =  'nouveau planifie' THEN 1306&#xd;&#xa;WHEN &quot;etat_exploitation&quot; =  'en attente' THEN 1301&#xd;&#xa;ELSE 103 &#xd;&#xa;END&#xd;&#xa;" length="-1" type="2" comment="" name="fk_status"/>
+        <field typeName="int2" precision="0" expression="103" length="-1" type="2" comment="" name="fk_watertype"/>
+        <field typeName="int2" precision="0" expression="null" length="-1" type="2" comment="" name="fk_locationtype"/>
+        <field typeName="int2" precision="0" expression="null" length="-1" type="2" comment="" name="fk_folder"/>
+        <field typeName="int2" precision="0" expression=" &quot;annee_construction&quot; " length="-1" type="2" comment="" name="year"/>
+        <field typeName="int2" precision="0" expression="null" length="-1" type="2" comment="" name="year_rehabilitation"/>
+        <field typeName="int2" precision="0" expression="null" length="-1" type="2" comment="" name="year_end"/>
+        <field typeName="int2" precision="0" expression="null" length="-1" type="2" comment="" name="tunnel_or_bridge"/>
+        <field typeName="int2" precision="0" expression=" &quot;p_admise&quot; " length="-1" type="2" comment="" name="pressure_nominal"/>
+        <field typeName="int2" precision="0" expression="--is_contained_in( 'communes','id')&#xd;&#xa;null" length="-1" type="2" comment="" name="fk_district"/>
+        <field typeName="int2" precision="0" expression="--is_contained_in( 'Zones de pression','id')&#xd;&#xa;null" length="-1" type="2" comment="" name="fk_pressurezone"/>
+        <field typeName="string" precision="0" expression="/*&#xd;&#xa;select distinct short_fr from qwat_vl.pipe_material order by short_fr asc&#xd;&#xa;'AC'&#xd;&#xa;'ACG'&#xd;&#xa;'ACI'&#xd;&#xa;'ACPR'&#xd;&#xa;'à dét.'&#xd;&#xa;'Autre'&#xd;&#xa;'B'&#xd;&#xa;'CU'&#xd;&#xa;'F'&#xd;&#xa;'FAE'&#xd;&#xa;'Inc.'&#xd;&#xa;'PE'&#xd;&#xa;'PE80'&#xd;&#xa;'PEX'&#xd;&#xa;'PL'&#xd;&#xa;'PRV'&#xd;&#xa;'PVC'&#xd;&#xa;'TAC'&#xd;&#xa;'TC'&#xd;&#xa;*/&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;CASE &#xd;&#xa;WHEN &quot;subtype_materiau&quot; = 'AC' THEN 'AC'&#xd;&#xa;WHEN &quot;subtype_materiau&quot; = 'ACG' THEN 'ACG'&#xd;&#xa;WHEN &quot;subtype_materiau&quot; = 'Autre' THEN 'Autre'&#xd;&#xa;WHEN &quot;subtype_materiau&quot; = 'F' THEN 'F'&#xd;&#xa;WHEN &quot;subtype_materiau&quot; = 'Inc.' AND  &quot;diam_interieur&quot; >0 THEN 'Ø'&#xd;&#xa;WHEN &quot;subtype_materiau&quot; = 'Inc.' THEN 'Inc.'&#xd;&#xa;WHEN &quot;subtype_materiau&quot; = 'PE' THEN 'PE'&#xd;&#xa;WHEN &quot;subtype_materiau&quot; = 'PE 80' THEN 'PE80'&#xd;&#xa;WHEN &quot;subtype_materiau&quot; = 'PL' THEN 'PL'&#xd;&#xa;WHEN &quot;subtype_materiau&quot; = 'PVC' THEN 'PVC'&#xd;&#xa;WHEN &quot;subtype_materiau&quot; = 'TAC' THEN 'TAC'&#xd;&#xa;WHEN &quot;subtype_materiau&quot; = 'TC' THEN 'TC'&#xd;&#xa;ELSE 103 END&#xd;&#xa;" length="10" type="10" comment="" name="x_type_mat"/>
+        <field typeName="string" precision="0" expression="--dbquery( 'conduites - matériaux','id',  'diameter_external > 160 ')&#xd;&#xa; /*&#xd;&#xa;  if( &quot;x_type_mat&quot; in (101,102,103) , &quot;x_type_mat&quot;, &#xd;&#xa;--dbquery( 'conduites - matériaux','id',  'vl_active=f and short_fr =  &quot;x_type_mat&quot; and  to_int( diameter_external ) =   to_int( &quot;diam_exterieur&quot;)')&#xd;&#xa;--dbquery( 'conduites - matériaux','id',  ' diameter_external =  &quot;diam_exterieur&quot; ')&#xd;&#xa;dbsql(qwat,'select id from qwat_vl.pipe_material where short_fr = &quot;x_type_mat&quot; AND diameter_external = 160 and pressure_nominal = 16') &#xd;&#xa; )&#xd;&#xa; */ &#xd;&#xa;--dbquery( 'conduites - matériaux','id',  'vl_active=f and short_fr =  &quot;x_type_mat&quot; and  to_int( diameter_external ) =   to_int( &quot;diam_exterieur&quot;)')&#xd;&#xa;CASE&#xd;&#xa;WHEN  &quot;x_type_mat&quot; like '%PE%' THEN&#xd;&#xa;&quot;x_type_mat&quot;  ||  ' '  ||  coalesce( &quot;diam_exterieur&quot;, &quot;diam_interieur&quot;, '' ) || ' PN'  ||  &quot;p_admise&quot; &#xd;&#xa;ELSE&#xd;&#xa; &quot;x_type_mat&quot;  ||  ' '  ||  coalesce( &quot;diam_exterieur&quot;, &quot;diam_interieur&quot;, '' )&#xd;&#xa; END" length="15" type="10" comment="" name="x_type_mat2"/>
+        <field typeName="string" precision="0" expression=" &quot;remarque&quot; " length="500" type="10" comment="" name="remark"/>
+        <field typeName="string" precision="0" expression=" &quot;etiquette&quot; " length="100" type="10" comment="" name="label_1_text"/>
+        <field typeName="integer" precision="0" expression="CASE&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 25 PN16' THEN 5508&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 250 PN16' THEN 5509&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 32 PN16' THEN 5510&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 355 PN16' THEN 5511&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 40 PN16' THEN 5512&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 400 PN16' THEN 5513&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 50 PN16' THEN 5514&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 63 PN16' THEN 5515&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 75 PN16' THEN 5516&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 90 PN16' THEN 5517&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 140 PN16' THEN 5518&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 180 PN16' THEN 5519&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 225 PN16' THEN 5520&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 315 PN16' THEN 5521&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 500 PN16' THEN 5522&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 630 PN16' THEN 5523&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 450 PN16' THEN 5524&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 560 PN16' THEN 5525&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 200 PN20' THEN 7013&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 225 PN20' THEN 7014&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 250 PN20' THEN 7015&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 280 PN20' THEN 7016&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 315 PN20' THEN 7017&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 355 PN20' THEN 7018&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 400 PN20' THEN 7019&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 450 PN20' THEN 7020&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 500 PN20' THEN 7021&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 560 PN20' THEN 7022&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 25 PN25' THEN 7023&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 32 PN25' THEN 7024&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 40 PN25' THEN 7025&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 50 PN25' THEN 7026&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 63 PN25' THEN 7027&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 75 PN25' THEN 7028&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 90 PN25' THEN 7029&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 25 PN8' THEN 7033&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 32 PN8' THEN 7034&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 40 PN8' THEN 7035&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 710 PN12.5' THEN 7045&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 25 PN10' THEN 7046&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 32 PN10' THEN 7047&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 125 PN16' THEN 5504&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 160 PN16' THEN 5506&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 200 PN16' THEN 5507&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 710 PN16' THEN 5526&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 280 PN16' THEN 5527&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE' THEN 5501&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 25 PN20' THEN 7001&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 32 PN20' THEN 7002&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 40 PN20' THEN 7003&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 50 PN20' THEN 7004&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 63 PN20' THEN 7005&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 75 PN20' THEN 7006&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 110 PN16' THEN 5503&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 90 PN20' THEN 7007&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 110 PN20' THEN 7008&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 125 PN20' THEN 7009&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 140 PN20' THEN 7010&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 160 PN20' THEN 7011&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 180 PN20' THEN 7012&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 25 PN12.5' THEN 7040&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 450 PN12.5' THEN 7041&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80' THEN 5550&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 50 PN16' THEN 5551&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 63 PN16' THEN 5552&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 500 PN12.5' THEN 7042&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 560 PN12.5' THEN 7043&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 630 PN12.5' THEN 7044&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 800' THEN 5372&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 90' THEN 5373&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'FAE' THEN 5400&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'FAE 100' THEN 5401&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'FAE 125' THEN 5402&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'FAE 150' THEN 5403&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'FAE 200' THEN 5404&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'FAE 250' THEN 5405&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'FAE 300' THEN 5406&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'FAE 400' THEN 5407&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PEX' THEN 5600&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PEX 63' THEN 5601&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PEX 90' THEN 5602&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PEX 160' THEN 5603&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PL' THEN 5651&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PL 0.2' THEN 5652&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PL 0.75&quot;' THEN 5653&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC' THEN 5101&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC ' THEN 5101&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 100' THEN 5102&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 125' THEN 5104&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 150' THEN 5105&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 175' THEN 5106&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 200' THEN 5108&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 250' THEN 5109&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 300' THEN 5110&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 400' THEN 5111&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 50' THEN 5112&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 500' THEN 5113&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 600' THEN 5115&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 65' THEN 5116&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 80' THEN 5119&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 800' THEN 5120&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 1000' THEN 5121&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 1200' THEN 5122&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 350' THEN 5123&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 1.5&quot;' THEN 5124&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 40' THEN 5124&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG' THEN 5151&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 0.5&quot;' THEN 5152&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 0.75&quot;' THEN 5153&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 1&quot;' THEN 5155&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 100' THEN 5156&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 1.25&quot;' THEN 5157&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 1.5&quot;' THEN 5158&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 2&quot;' THEN 5159&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 2.5&quot;' THEN 5160&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 3&quot;' THEN 5170&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 4&quot;' THEN 5171&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 80' THEN 5172&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 15' THEN 5152&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 20' THEN 5153&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 25' THEN 5155&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 32' THEN 5157&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 40' THEN 5158&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 50' THEN 5159&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACI 100' THEN 5201&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACI 125' THEN 5202&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACI 150' THEN 5203&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACI 200' THEN 5204&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACI 250' THEN 5205&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACPR' THEN 5251&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACPR 100' THEN 5252&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACPR 125' THEN 5253&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACPR 150' THEN 5254&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACPR 200' THEN 5255&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACPR 300' THEN 5256&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACPR 50' THEN 5257&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACPR 60' THEN 5258&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACPR 80' THEN 5259&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'CU' THEN 5301&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'CU 1&quot;' THEN 5302&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'CU 10' THEN 5303&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'CU 12' THEN 5304&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'CU 1.25&quot;' THEN 5305&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'CU 15' THEN 5306&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'CU 17' THEN 5307&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'CU 22/19' THEN 5308&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'CU 25' THEN 5309&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'CU 32' THEN 5310&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F' THEN 5351&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F ' THEN 5351&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 100' THEN 5352&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 118' THEN 5352&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 110' THEN 5353&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 120' THEN 5354&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 125' THEN 5355&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 144' THEN 5355&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 131' THEN 5355&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 150' THEN 5356&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 170' THEN 5356&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 175' THEN 5357&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 180' THEN 5358&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 200' THEN 5359&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 250' THEN 5360&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 300' THEN 5361&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 350' THEN 5362&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 375' THEN 5363&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 400' THEN 5364&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 50' THEN 5365&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 500' THEN 5366&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 60' THEN 5367&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 600' THEN 5368&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 65' THEN 5369&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 70' THEN 5370&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'F 80' THEN 5371&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 40 PN10' THEN 7048&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 50 PN10' THEN 7049&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 63 PN10' THEN 7050&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 75 PN10' THEN 7051&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 90 PN10' THEN 7052&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 110 PN10' THEN 7053&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 125 PN10' THEN 7054&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 140 PN10' THEN 7055&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 160 PN10' THEN 7056&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 180 PN10' THEN 7057&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 200 PN10' THEN 7058&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 225 PN10' THEN 7059&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 250 PN10' THEN 7060&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 280 PN10' THEN 7061&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 315 PN10' THEN 7062&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 355 PN10' THEN 7063&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 400 PN10' THEN 7064&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 450 PN10' THEN 7065&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 500 PN10' THEN 7066&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 560 PN10' THEN 7067&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PL 1&quot;' THEN 5654&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PL 1.25&quot;' THEN 5655&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PL 1.5&quot;' THEN 5656&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PL 2&quot;' THEN 5657&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PL 20' THEN 5658&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PL 25' THEN 5659&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PL 2.5&quot;' THEN 5660&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PL 32' THEN 5661&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PL 32' THEN 5654&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PL 40' THEN 5655&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PL 50' THEN 5656&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PL 63' THEN 5657&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TAC 100' THEN 5751&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TAC 125' THEN 5753&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TAC 150' THEN 5754&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TAC 175' THEN 5756&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TAC 200' THEN 5758&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TAC 250' THEN 5759&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TAC 300' THEN 5761&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TAC 50' THEN 5762&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TAC 80' THEN 5763&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TAC 600' THEN 5764&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TC' THEN 5800&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TC ' THEN 5800&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TC 20' THEN 5801&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TC 25' THEN 5802&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TC 30' THEN 5803&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 63 PN8' THEN 7030&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 75 PN8' THEN 7031&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 90 PN8' THEN 7032&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 50 PN8' THEN 7036&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 500 PN6' THEN 7037&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 560 PN6' THEN 7038&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 630 PN6' THEN 7039&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 630 PN10' THEN 7068&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 180 PN8' THEN 7069&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 200 PN8' THEN 7070&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 225 PN8' THEN 7071&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 250 PN8' THEN 7072&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 40 PN6' THEN 7073&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 315 PN6' THEN 7074&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 355 PN6' THEN 7075&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 400 PN6' THEN 7076&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 450 PN6' THEN 7077&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 110 PN8' THEN 7078&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 125 PN8' THEN 7079&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 140 PN8' THEN 7080&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 160 PN8' THEN 7081&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 280 PN8' THEN 7082&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 315 PN8' THEN 7083&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 140 PN6' THEN 7084&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 50 PN6' THEN 7085&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 63 PN6' THEN 7086&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 75 PN6' THEN 7087&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 90 PN6' THEN 7088&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 110 PN6' THEN 7089&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 125 PN6' THEN 7090&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 160 PN6' THEN 7091&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 180 PN6' THEN 7092&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 200 PN6' THEN 7093&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 225 PN6' THEN 7094&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 250 PN6' THEN 7095&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 280 PN6' THEN 7096&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 710 PN6' THEN 7097&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 355 PN8' THEN 7098&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 400 PN8' THEN 7099&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 450 PN8' THEN 7100&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 500 PN8' THEN 7101&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 560 PN8' THEN 7102&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 630 PN8' THEN 7103&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 710 PN8' THEN 7104&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 110 PN25' THEN 7105&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 125 PN25' THEN 7106&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 140 PN25' THEN 7107&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 160 PN25' THEN 7108&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 180 PN25' THEN 7109&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 200 PN25' THEN 7110&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 225 PN25' THEN 7111&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 250 PN25' THEN 7112&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 280 PN25' THEN 7113&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 315 PN25' THEN 7114&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 355 PN25' THEN 7115&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 400 PN25' THEN 7116&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 450 PN25' THEN 7117&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 710 PN10' THEN 7118&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 140 PN12.5' THEN 7119&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 160 PN12.5' THEN 7120&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 180 PN12.5' THEN 7121&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 200 PN12.5' THEN 7122&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 225 PN12.5' THEN 7123&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 250 PN12.5' THEN 7124&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 280 PN12.5' THEN 7125&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 315 PN12.5' THEN 7126&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 355 PN12.5' THEN 7127&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 400 PN12.5' THEN 7128&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 40 PN12.5' THEN 7129&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 32 PN12.5' THEN 7130&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 50 PN12.5' THEN 7131&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 63 PN12.5' THEN 7132&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 75 PN12.5' THEN 7133&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 90 PN12.5' THEN 7134&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 110 PN12.5' THEN 7135&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE 125 PN12.5' THEN 7136&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 32 PN8' THEN 7501&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 500 PN10' THEN 7502&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 560 PN10' THEN 7503&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 630 PN10' THEN 7504&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 710 PN10' THEN 7505&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 500 PN12.5' THEN 7506&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 560 PN12.5' THEN 7507&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 630 PN12.5' THEN 7508&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 40 PN12.5' THEN 7509&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 50 PN12.5' THEN 7510&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 63 PN12.5' THEN 7511&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 75 PN12.5' THEN 7512&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 90 PN12.5' THEN 7513&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 110 PN12.5' THEN 7514&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 125 PN12.5' THEN 7515&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 140 PN12.5' THEN 7516&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 160 PN12.5' THEN 7517&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 180 PN12.5' THEN 7518&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 200 PN12.5' THEN 7519&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 225 PN12.5' THEN 7520&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 250 PN12.5' THEN 7521&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 280 PN12.5' THEN 7522&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 315 PN12.5' THEN 7523&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 355 PN12.5' THEN 7524&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 400 PN12.5' THEN 7525&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 450 PN12.5' THEN 7526&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 25 PN12.5' THEN 7527&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 450 PN16' THEN 7528&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 500 PN16' THEN 7529&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 315 PN20' THEN 7530&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 355 PN20' THEN 7531&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 400 PN20' THEN 7532&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 32 PN6' THEN 7533&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 50 PN6' THEN 7534&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 32 PN12.5' THEN 7535&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 40 PN20' THEN 7536&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 50 PN20' THEN 7537&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 63 PN20' THEN 7538&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 75 PN20' THEN 7539&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 90 PN20' THEN 7540&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 110 PN20' THEN 7541&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 125 PN20' THEN 7542&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 140 PN20' THEN 7543&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 160 PN20' THEN 7544&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 180 PN20' THEN 7545&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 200 PN20' THEN 7546&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 225 PN20' THEN 7547&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 450 PN20' THEN 7548&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 40 PN10' THEN 7549&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 50 PN10' THEN 7550&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 63 PN10' THEN 7551&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 75 PN10' THEN 7552&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 25 PN8' THEN 7553&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 32 PN10' THEN 7554&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 90 PN10' THEN 7555&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 110 PN10' THEN 7556&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 125 PN10' THEN 7557&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 140 PN10' THEN 7558&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 40 PN8' THEN 7559&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 160 PN10' THEN 7560&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 180 PN10' THEN 7561&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 200 PN10' THEN 7562&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 225 PN10' THEN 7563&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 250 PN10' THEN 7564&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 280 PN10' THEN 7565&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 315 PN10' THEN 7566&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 355 PN10' THEN 7567&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 400 PN10' THEN 7568&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 450 PN10' THEN 7569&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 25 PN10' THEN 7570&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 40 PN16' THEN 7571&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 75 PN16' THEN 7572&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 90 PN16' THEN 7573&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 110 PN16' THEN 7574&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 125 PN16' THEN 7575&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 140 PN16' THEN 7576&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 160 PN16' THEN 7577&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 180 PN16' THEN 7578&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 200 PN16' THEN 7579&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 225 PN16' THEN 7580&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 250 PN16' THEN 7581&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 280 PN16' THEN 7582&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 315 PN16' THEN 7583&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 355 PN16' THEN 7584&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 400 PN16' THEN 7585&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 250 PN20' THEN 7586&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 280 PN20' THEN 7587&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 25 PN6' THEN 7588&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 40 PN6' THEN 7589&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 63 PN6' THEN 7590&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 75 PN6' THEN 7591&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 125 PN6' THEN 7592&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 140 PN6' THEN 7593&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 160 PN6' THEN 7594&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 180 PN6' THEN 7595&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 200 PN6' THEN 7596&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 225 PN6' THEN 7597&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 250 PN6' THEN 7598&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 280 PN6' THEN 7599&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 315 PN6' THEN 7600&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 355 PN6' THEN 7601&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 400 PN6' THEN 7602&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 450 PN6' THEN 7603&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 500 PN6' THEN 7604&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 560 PN6' THEN 7605&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 630 PN6' THEN 7606&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 710 PN6' THEN 7607&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 50 PN8' THEN 7608&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 63 PN8' THEN 7609&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 75 PN8' THEN 7610&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 90 PN8' THEN 7611&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 110 PN8' THEN 7612&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 125 PN8' THEN 7613&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 140 PN8' THEN 7614&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 160 PN8' THEN 7615&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 180 PN8' THEN 7616&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 200 PN8' THEN 7617&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 225 PN8' THEN 7618&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 250 PN8' THEN 7619&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 280 PN8' THEN 7620&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 315 PN8' THEN 7621&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 355 PN8' THEN 7622&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 400 PN8' THEN 7623&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 450 PN8' THEN 7624&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 500 PN8' THEN 7625&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 560 PN8' THEN 7626&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 630 PN8' THEN 7627&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 710 PN8' THEN 7628&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 90 PN6' THEN 7629&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE80 110 PN6' THEN 7630&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV' THEN 7700&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV ' THEN 7700&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 150 PN10' THEN 7701&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 200 PN10' THEN 7702&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 250 PN10' THEN 7703&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 300 PN10' THEN 7704&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 350 PN10' THEN 7705&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 400 PN10' THEN 7706&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 450 PN10' THEN 7707&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 500 PN10' THEN 7708&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 550 PN10' THEN 7709&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 600 PN10' THEN 7710&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 650 PN10' THEN 7711&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 700 PN10' THEN 7712&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 750 PN10' THEN 7713&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 800 PN10' THEN 7714&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 860 PN10' THEN 7715&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 900 PN10' THEN 7716&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 960 PN10' THEN 7717&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1000 PN10' THEN 7718&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1100 PN10' THEN 7719&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1200 PN10' THEN 7720&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1280 PN16' THEN 7721&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1348 PN16' THEN 7722&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1400 PN16' THEN 7723&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1500 PN16' THEN 7724&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 150 PN16' THEN 7725&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 200 PN16' THEN 7726&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 250 PN16' THEN 7727&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 300 PN16' THEN 7728&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 350 PN16' THEN 7729&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 400 PN16' THEN 7730&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 450 PN16' THEN 7731&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 500 PN16' THEN 7733&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 550 PN16' THEN 7734&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 600 PN16' THEN 7735&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 650 PN16' THEN 7736&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 700 PN16' THEN 7737&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 750 PN16' THEN 7738&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 800 PN16' THEN 7739&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 860 PN16' THEN 7740&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 900 PN16' THEN 7741&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 960 PN16' THEN 7742&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1000 PN16' THEN 7743&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1100 PN16' THEN 7744&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1200 PN16' THEN 7745&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1280 PN16' THEN 7746&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1348 PN16' THEN 7747&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1400 PN16' THEN 7748&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1500 PN16' THEN 7749&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1535 PN16' THEN 7750&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1600 PN16' THEN 7751&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 150 PN20' THEN 7752&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 200 PN20' THEN 7753&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 250 PN20' THEN 7754&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 300 PN20' THEN 7755&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 350 PN20' THEN 7756&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 400 PN20' THEN 7757&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 450 PN20' THEN 7758&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 500 PN20' THEN 7759&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 550 PN20' THEN 7760&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 600 PN20' THEN 7761&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 650 PN20' THEN 7762&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 700 PN20' THEN 7763&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 750 PN20' THEN 7764&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 800 PN20' THEN 7765&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 860 PN20' THEN 7766&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 900 PN20' THEN 7767&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 960 PN20' THEN 7768&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1000 PN20' THEN 7769&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1100 PN20' THEN 7770&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1200 PN20' THEN 7772&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1280 PN20' THEN 7773&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1348 PN20' THEN 7774&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1400 PN20' THEN 7775&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1500 PN20' THEN 7776&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1535 PN20' THEN 7777&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1600 PN20' THEN 7778&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 150 PN25' THEN 7779&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 200 PN25' THEN 7780&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 250 PN25' THEN 7781&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 300 PN25' THEN 7782&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 350 PN25' THEN 7783&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 400 PN25' THEN 7784&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 450 PN25' THEN 7785&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 500 PN25' THEN 7786&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 550 PN25' THEN 7787&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 600 PN25' THEN 7788&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 650 PN25' THEN 7789&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 700 PN25' THEN 7790&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 750 PN25' THEN 7791&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 800 PN25' THEN 7792&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 860 PN25' THEN 7793&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 900 PN25' THEN 7794&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 960 PN25' THEN 7795&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1000 PN25' THEN 7796&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 150 PN32' THEN 7797&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 200 PN32' THEN 7798&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 250 PN32' THEN 7799&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 300 PN32' THEN 7800&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 350 PN32' THEN 7801&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 400 PN32' THEN 7802&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 450 PN32' THEN 7803&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 500 PN32' THEN 7804&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 550 PN32' THEN 7805&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 600 PN32' THEN 7806&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 650 PN32' THEN 7807&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 700 PN32' THEN 7808&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 750 PN32' THEN 7809&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 800 PN32' THEN 7810&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 860 PN32' THEN 7811&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 900 PN32' THEN 7812&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 960 PN32' THEN 7813&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1000 PN32' THEN 7814&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 150 PN6' THEN 7815&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 200 PN6' THEN 7816&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 250 PN6' THEN 7817&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 300 PN6' THEN 7818&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 350 PN6' THEN 7819&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 400 PN6' THEN 7820&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 450 PN6' THEN 7821&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 500 PN6' THEN 7822&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 550 PN6' THEN 7823&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 600 PN6' THEN 7824&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 650 PN6' THEN 7825&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 700 PN6' THEN 7826&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 750 PN6' THEN 7827&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 800 PN6' THEN 7828&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 860 PN6' THEN 7829&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 900 PN6' THEN 7830&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 960 PN6' THEN 7831&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1000 PN6' THEN 7832&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1100 PN6' THEN 7833&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1200 PN6' THEN 7834&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1280 PN6' THEN 7835&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1348 PN6' THEN 7836&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1400 PN6' THEN 7837&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1500 PN6' THEN 7838&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1535 PN6' THEN 7839&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PRV 1600 PN6' THEN 7840&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 250' THEN 10001&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 225' THEN 10002&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 200' THEN 10003&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 180' THEN 10004&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 160/136' THEN 10005&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 160/129.2' THEN 10006&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 160/123.4' THEN 10007&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 140' THEN 10008&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 125/102.2' THEN 10009&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 125/110.6' THEN 10010&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 110/101.6' THEN 10011&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 110/93.6' THEN 10012&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 100' THEN 10013&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 63' THEN 10014&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 50' THEN 10015&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE PN10' THEN 10016&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE PN16' THEN 10017&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE  PN10' THEN 10016&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PE  PN16' THEN 10017&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 1.25&quot;' THEN 10018&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 1&quot;' THEN 10019&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 3/4''' THEN 10020&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 1/2&quot;' THEN 10021&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TAC' THEN 10022&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TAC 350' THEN 10023&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 50' THEN 10024&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 40' THEN 10025&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 32' THEN 10026&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'ACG 25' THEN 10027&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PL' THEN 10028&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PL ' THEN 10028&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TC 10' THEN 10029&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'TC 15' THEN 10030&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 300' THEN 10031&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 250' THEN 10032&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 200' THEN 10033&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 180' THEN 10034&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 175' THEN 10035&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 150' THEN 10036&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 125' THEN 10037&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 120' THEN 10038&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 100' THEN 10039&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 80' THEN 10040&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 75' THEN 10041&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 70' THEN 10042&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 63' THEN 10043&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 50' THEN 10044&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 40' THEN 10045&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 32' THEN 10046&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 25' THEN 10047&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Ø 20' THEN 10048&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC' THEN 5700&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC ' THEN 5700&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 100' THEN 5701&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 120' THEN 5702&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 125' THEN 5703&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 140' THEN 5704&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 150' THEN 5705&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 160' THEN 5706&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 20' THEN 5707&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 250' THEN 5708&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 600' THEN 5709&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 75' THEN 5710&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 63' THEN 5711&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'PVC 110' THEN 5712&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 32' THEN 10018&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 25' THEN 10019&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 20' THEN 10020&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'AC 15' THEN 10021&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Inc.' THEN 102&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Autre' THEN 101&#xd;&#xa;WHEN  &quot;x_type_mat2&quot; = 'Autre ' THEN 101&#xd;&#xa;ELSE 103&#xd;&#xa;END" length="10" type="2" comment="" name="fk_material"/>
+      </expressionfields>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="fid">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fonction_conduite">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="type_materiau">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="subtype_materiau">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="diam_interieur">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="diam_exterieur">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="p_admise">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="annee_construction">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="precision_plan">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="proprietaire">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="etat_exploitation">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="mesure_plan">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="remarque">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="zone_pression">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="dossier_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="provenance">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="etiquette">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="etat_initi">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="rugosite">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vol_m3">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_parent">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_function">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_installmethod">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_distributor">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_precision">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_bedding">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_protection">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_status">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_watertype">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_locationtype">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_folder">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="year">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="year_rehabilitation">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="year_end">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="tunnel_or_bridge">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pressure_nominal">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_district">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_pressurezone">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="x_type_mat">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="x_type_mat2">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="remark">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="label_1_text">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_material">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="144,255,216,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="8.25"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="4294967295"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Normal"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="2"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>fid</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Étiquette"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>.</annotationform>
+      <aliases>
+        <alias field="fid" index="0" name=""/>
+        <alias field="fonction_conduite" index="1" name=""/>
+        <alias field="type_materiau" index="2" name=""/>
+        <alias field="subtype_materiau" index="3" name=""/>
+        <alias field="diam_interieur" index="4" name=""/>
+        <alias field="diam_exterieur" index="5" name=""/>
+        <alias field="p_admise" index="6" name=""/>
+        <alias field="annee_construction" index="7" name=""/>
+        <alias field="precision_plan" index="8" name=""/>
+        <alias field="proprietaire" index="9" name=""/>
+        <alias field="etat_exploitation" index="10" name=""/>
+        <alias field="mesure_plan" index="11" name=""/>
+        <alias field="remarque" index="12" name=""/>
+        <alias field="zone_pression" index="13" name=""/>
+        <alias field="dossier_id" index="14" name=""/>
+        <alias field="provenance" index="15" name=""/>
+        <alias field="etiquette" index="16" name=""/>
+        <alias field="etat_initi" index="17" name=""/>
+        <alias field="rugosite" index="18" name=""/>
+        <alias field="vol_m3" index="19" name=""/>
+        <alias field="fk_parent" index="20" name=""/>
+        <alias field="fk_function" index="21" name=""/>
+        <alias field="fk_installmethod" index="22" name=""/>
+        <alias field="fk_distributor" index="23" name=""/>
+        <alias field="fk_precision" index="24" name=""/>
+        <alias field="fk_bedding" index="25" name=""/>
+        <alias field="fk_protection" index="26" name=""/>
+        <alias field="fk_status" index="27" name=""/>
+        <alias field="fk_watertype" index="28" name=""/>
+        <alias field="fk_locationtype" index="29" name=""/>
+        <alias field="fk_folder" index="30" name=""/>
+        <alias field="year" index="31" name=""/>
+        <alias field="year_rehabilitation" index="32" name=""/>
+        <alias field="year_end" index="33" name=""/>
+        <alias field="tunnel_or_bridge" index="34" name=""/>
+        <alias field="pressure_nominal" index="35" name=""/>
+        <alias field="fk_district" index="36" name=""/>
+        <alias field="fk_pressurezone" index="37" name=""/>
+        <alias field="x_type_mat" index="38" name=""/>
+        <alias field="x_type_mat2" index="39" name=""/>
+        <alias field="remark" index="40" name=""/>
+        <alias field="label_1_text" index="41" name=""/>
+        <alias field="fk_material" index="42" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="fid"/>
+          <column width="-1" hidden="0" type="field" name="fonction_conduite"/>
+          <column width="-1" hidden="0" type="field" name="type_materiau"/>
+          <column width="-1" hidden="0" type="field" name="subtype_materiau"/>
+          <column width="-1" hidden="0" type="field" name="diam_interieur"/>
+          <column width="-1" hidden="0" type="field" name="diam_exterieur"/>
+          <column width="-1" hidden="0" type="field" name="p_admise"/>
+          <column width="-1" hidden="0" type="field" name="annee_construction"/>
+          <column width="-1" hidden="0" type="field" name="precision_plan"/>
+          <column width="-1" hidden="0" type="field" name="proprietaire"/>
+          <column width="-1" hidden="0" type="field" name="etat_exploitation"/>
+          <column width="-1" hidden="0" type="field" name="mesure_plan"/>
+          <column width="-1" hidden="0" type="field" name="remarque"/>
+          <column width="-1" hidden="0" type="field" name="zone_pression"/>
+          <column width="-1" hidden="0" type="field" name="dossier_id"/>
+          <column width="-1" hidden="0" type="field" name="provenance"/>
+          <column width="-1" hidden="0" type="field" name="etiquette"/>
+          <column width="-1" hidden="0" type="field" name="etat_initi"/>
+          <column width="-1" hidden="0" type="field" name="rugosite"/>
+          <column width="-1" hidden="0" type="field" name="vol_m3"/>
+          <column width="-1" hidden="1" type="actions"/>
+          <column width="-1" hidden="0" type="field" name="fk_parent"/>
+          <column width="-1" hidden="0" type="field" name="fk_function"/>
+          <column width="-1" hidden="0" type="field" name="fk_installmethod"/>
+          <column width="-1" hidden="0" type="field" name="fk_distributor"/>
+          <column width="-1" hidden="0" type="field" name="fk_precision"/>
+          <column width="-1" hidden="0" type="field" name="fk_bedding"/>
+          <column width="-1" hidden="0" type="field" name="fk_protection"/>
+          <column width="-1" hidden="0" type="field" name="fk_status"/>
+          <column width="-1" hidden="0" type="field" name="fk_watertype"/>
+          <column width="-1" hidden="0" type="field" name="fk_locationtype"/>
+          <column width="-1" hidden="0" type="field" name="fk_folder"/>
+          <column width="-1" hidden="0" type="field" name="year"/>
+          <column width="-1" hidden="0" type="field" name="year_rehabilitation"/>
+          <column width="-1" hidden="0" type="field" name="year_end"/>
+          <column width="-1" hidden="0" type="field" name="tunnel_or_bridge"/>
+          <column width="-1" hidden="0" type="field" name="pressure_nominal"/>
+          <column width="-1" hidden="0" type="field" name="fk_district"/>
+          <column width="-1" hidden="0" type="field" name="fk_pressurezone"/>
+          <column width="-1" hidden="0" type="field" name="x_type_mat"/>
+          <column width="-1" hidden="0" type="field" name="x_type_mat2"/>
+          <column width="-1" hidden="0" type="field" name="remark"/>
+          <column width="-1" hidden="0" type="field" name="label_1_text"/>
+          <column width="-1" hidden="0" type="field" name="fk_material"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
+
+Utilisez cette fonction pour ajouter plus de fonctionnalités à vos formulaires.
+
+Entrez le nom de la fonction dans le champ "Fonction d'initialisation Python".
+Voici un exemple à suivre:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="fid" expression=""/>
+        <default field="fonction_conduite" expression=""/>
+        <default field="type_materiau" expression=""/>
+        <default field="subtype_materiau" expression=""/>
+        <default field="diam_interieur" expression=""/>
+        <default field="diam_exterieur" expression=""/>
+        <default field="p_admise" expression=""/>
+        <default field="annee_construction" expression=""/>
+        <default field="precision_plan" expression=""/>
+        <default field="proprietaire" expression=""/>
+        <default field="etat_exploitation" expression=""/>
+        <default field="mesure_plan" expression=""/>
+        <default field="remarque" expression=""/>
+        <default field="zone_pression" expression=""/>
+        <default field="dossier_id" expression=""/>
+        <default field="provenance" expression=""/>
+        <default field="etiquette" expression=""/>
+        <default field="etat_initi" expression=""/>
+        <default field="rugosite" expression=""/>
+        <default field="vol_m3" expression=""/>
+        <default field="fk_parent" expression=""/>
+        <default field="fk_function" expression=""/>
+        <default field="fk_installmethod" expression=""/>
+        <default field="fk_distributor" expression=""/>
+        <default field="fk_precision" expression=""/>
+        <default field="fk_bedding" expression=""/>
+        <default field="fk_protection" expression=""/>
+        <default field="fk_status" expression=""/>
+        <default field="fk_watertype" expression=""/>
+        <default field="fk_locationtype" expression=""/>
+        <default field="fk_folder" expression=""/>
+        <default field="year" expression=""/>
+        <default field="year_rehabilitation" expression=""/>
+        <default field="year_end" expression=""/>
+        <default field="tunnel_or_bridge" expression=""/>
+        <default field="pressure_nominal" expression=""/>
+        <default field="fk_district" expression=""/>
+        <default field="fk_pressurezone" expression=""/>
+        <default field="x_type_mat" expression=""/>
+        <default field="x_type_mat2" expression=""/>
+        <default field="remark" expression=""/>
+        <default field="label_1_text" expression=""/>
+        <default field="fk_material" expression=""/>
+      </defaults>
+      <previewExpression>COALESCE( "fid", '&lt;NULL>' )</previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>valve20180117104959571</id>
+      <datasource>./valve.gpkg|layername=valve</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>valve</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>bessel</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields>
+        <field typeName="double" precision="3" expression="if( &quot;elevation&quot;  is null, CASE &#xd;&#xa;WHEN  &quot;vanne_elevation_FR_MN95&quot;  >0 THEN round(&quot;vanne_elevation_FR_MN95&quot; ,1) ELSE 10&#xd;&#xa;END, &quot;elevation&quot;)" length="10" type="6" comment="" name="altitude"/>
+        <field typeName="integer" precision="0" expression="/*&#xd;&#xa;'purgeur aerateur' &#xd;&#xa;, 'vanne hydrant' , &#xd;&#xa;'vanne incendie' ,&#xd;&#xa; 'vanne raccordement' , &#xd;&#xa; 'vanne reseau' , &#xd;&#xa;'vanne vidange' &#xd;&#xa; &#xd;&#xa;101&#x9;autre&#xd;&#xa;102&#x9;inconnu&#xd;&#xa;103&#x9;Ã  dÃ©terminer&#xd;&#xa;6101&#x9;vanne de rÃ©gulation&#xd;&#xa;6102&#x9;ventouse&#xd;&#xa;6103&#x9;vanne bypass&#xd;&#xa;6105&#x9;vanne branchement&#xd;&#xa;6107&#x9;vanne incendie&#xd;&#xa;6108&#x9;vanne d'hydrant&#xd;&#xa;6110&#x9;vidange&#xd;&#xa;6111&#x9;vanne rÃ©seau&#xd;&#xa;6112&#x9;vidange-ventouse&#xd;&#xa;6113&#x9;antiretour&#xd;&#xa;6114&#x9;vanne sprinkler&#xd;&#xa;6115&#x9;jauge&#xd;&#xa;&#xd;&#xa;&#xd;&#xa; &#xd;&#xa; */&#xd;&#xa;&#xd;&#xa;CASE &#xd;&#xa;WHEN  &quot;fonction_vanne&quot;  = 'purgeur aerateur'  THEN 6112&#xd;&#xa;WHEN  &quot;fonction_vanne&quot;  = 'vanne hydrant'  THEN 6108&#xd;&#xa;WHEN  &quot;fonction_vanne&quot;  = 'vanne incendie'  THEN 6107&#xd;&#xa;WHEN  &quot;fonction_vanne&quot;  = 'vanne raccordement'  THEN 6105&#xd;&#xa;WHEN  &quot;fonction_vanne&quot;  = 'vanne reseau'  THEN 6111&#xd;&#xa;WHEN  &quot;fonction_vanne&quot;  = 'vanne vidange'  THEN 6110&#xd;&#xa;ELSE 103&#xd;&#xa;END&#xd;&#xa;" length="10" type="2" comment="" name="fk_valve_function"/>
+        <field typeName="integer" precision="0" expression="--valve actuation&#xd;&#xa;103" length="10" type="2" comment="" name="fk_valve_actuation"/>
+        <field typeName="integer" precision="0" expression="null" length="10" type="2" comment="" name="fk_pipe"/>
+        <field typeName="integer" precision="0" expression="null" length="10" type="2" comment="" name="fk_handle_precision"/>
+        <field typeName="integer" precision="0" expression="null" length="10" type="2" comment="" name="fk_handle_precisionalti"/>
+        <field typeName="integer" precision="0" expression="null" length="10" type="2" comment="" name="fk_maintenance"/>
+        <field typeName="integer" precision="0" expression="null" length="10" type="2" comment="" name="diameter_nominal"/>
+        <field typeName="string" precision="0" expression="&#xd;&#xa;CASE WHEN  &quot;etat_connexion&quot;  =  'ferme'  THEN &#xd;&#xa;'t'&#xd;&#xa;else 'f'&#xd;&#xa;END&#xd;&#xa;&#xd;&#xa;--null" length="10" type="10" comment="" name="closed"/>
+        <field typeName="integer" precision="0" expression="null" length="10" type="2" comment="" name="networkseparation"/>
+        <field typeName="integer" precision="0" expression="--is_contained_in( 'communes','id')&#xd;&#xa;null" length="10" type="2" comment="" name="fk_district"/>
+        <field typeName="integer" precision="0" expression="--is_contained_in( 'Zones de pression','id')&#xd;&#xa;null&#xd;&#xa;" length="10" type="2" comment="" name="fk_pressurezone"/>
+        <field typeName="integer" precision="0" expression="/*&#xd;&#xa;Numero N°OFS&#xd;&#xa;Association a partir de 20'001&#xd;&#xa;*/&#xd;&#xa;CASE &#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'AGSO'  THEN 20001&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'AIEJ'  THEN 20002&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'AISFE' THEN 20003&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'AVGG' THEN 20004&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'CREB' THEN 20005&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'DDPS' THEN 20006&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'GAGEC' THEN 20007&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'GAGN' THEN 20008&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'GAME' THEN 20009&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Les Barussels' THEN 20010&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'SIGE'  THEN 20011&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'TPF' THEN 20012&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Attalens' THEN 2321&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Auboranges' THEN 2061&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Bossonnens' THEN 2323&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Chapelle' THEN 2066&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Châtel-St-Denis' THEN 2325&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Dompierre VD' THEN 5671&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Granges'  THEN 2328&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Grangettes' THEN 2079&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'La Brillaz' THEN 2234&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'La Verrerie' THEN 2338&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Le Flon' THEN 2337&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Le Mouret' THEN 2220&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Mézières' THEN 2087&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Neyruz' THEN 2211&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Oron' THEN 5793&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Remaufens' THEN 2333&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Romont'  THEN 2096&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Rue' THEN 2097&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Saint-Martin' THEN 2335&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Sâles' THEN 2152&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Semsales' THEN 2336&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Siviriez'  THEN 2099&#xd;&#xa;WHEN&quot;proprietaire&quot;  =  'Ursy' THEN 2102&#xd;&#xa;WHEN&quot;proprietaire&quot;  = 'Vuisternens-devant-Romont' THEN 2113&#xd;&#xa;ELSE 1 END" length="10" type="2" comment="" name="fk_distributor"/>
+        <field typeName="integer" precision="0" expression="--M:\92\9200_Chatel\2017\Informatique\qwat\tables_parametres\export\precision.csv&#xd;&#xa;/*&#xd;&#xa;101&#x9;autre&#xd;&#xa;102&#x9;inconnu&#xd;&#xa;103&#x9;A déterminer&#xd;&#xa;1101&#x9;Imprécis&#xd;&#xa;1102&#x9;Précis&#xd;&#xa;1103&#x9;Localisé&#xd;&#xa;1104&#x9;Digitalisé&#xd;&#xa;*/&#xd;&#xa;CASE &#xd;&#xa;WHEN&quot;precision_plan&quot; = 'precis' THEN 1102&#xd;&#xa;WHEN&quot;precision_plan&quot; =  'imprecis' THEN 1101&#xd;&#xa;ELSE 103 END&#xd;&#xa;&#xd;&#xa;" length="10" type="2" comment="" name="fk_precision"/>
+        <field typeName="integer" precision="0" expression="1121" length="10" type="2" comment="" name="fk_precisionalti"/>
+        <field typeName="integer" precision="0" expression="/*&#xd;&#xa;101&#x9;autre&#xd;&#xa;102&#x9;inconnu&#xd;&#xa;103&#x9;A déterminer&#xd;&#xa;1307&#x9;fictif&#xd;&#xa;1303&#x9;désaffecté&#xd;&#xa;1305&#x9;détruit&#xd;&#xa;1302 hors service&#xd;&#xa;1301 en service&#xd;&#xa;1304 abandonné&#xd;&#xa;1306 projet&#xd;&#xa;*/&#xd;&#xa;CASE &#xd;&#xa;WHEN  &quot;etat_exploitation&quot;  =  'en service'  THEN 1301&#xd;&#xa;WHEN &quot;etat_exploitation&quot; =  'hors service' THEN 1302&#xd;&#xa;WHEN &quot;etat_exploitation&quot; =  'nouveau planifie' THEN 1306&#xd;&#xa;ELSE 103 &#xd;&#xa;END&#xd;&#xa;" length="10" type="2" comment="" name="fk_status"/>
+        <field typeName="string" precision="0" expression=" &quot;dossier_id&quot; " length="10" type="2" comment="" name="fk_folder"/>
+        <field typeName="integer" precision="0" expression=" &quot;annee_installation&quot; " length="10" type="2" comment="" name="year"/>
+        <field typeName="integer" precision="0" expression="null" length="10" type="2" comment="" name="year_end"/>
+        <field typeName="text" precision="-1" expression=" &quot;nom_numero&quot; " length="-1" type="10" comment="" name="identification"/>
+        <field typeName="string" precision="0" expression=" &quot;remarque&quot; " length="500" type="10" comment="" name="remark"/>
+        <field typeName="integer" precision="0" expression="/*&#xd;&#xa; 'Compteur prive' &#xd;&#xa; 'Fontaine' &#xd;&#xa; 'bouchon' &#xd;&#xa; 'captage privé' &#xd;&#xa; 'chambre' &#xd;&#xa; 'chambre de tirage' &#xd;&#xa; 'chambre de vanne' &#xd;&#xa; 'coude' &#xd;&#xa; 'inconnu' &#xd;&#xa; 'manchon' &#xd;&#xa; 'niveau' &#xd;&#xa; 'piquet/poteau' &#xd;&#xa; 'prise' &#xd;&#xa; 'purgeur aerateur' &#xd;&#xa; 'raccord' &#xd;&#xa; 'reduction' &#xd;&#xa; 'robinet de prelevement' &#xd;&#xa; 'surpresseur' &#xd;&#xa; 'te' &#xd;&#xa; 'vanne hydrant' &#xd;&#xa; 'vanne incendie' &#xd;&#xa; 'vanne raccordement' &#xd;&#xa; 'vanne reseau' &#xd;&#xa; 'vanne vidange' &#xd;&#xa; &#xd;&#xa;101&#x9;autre&#xd;&#xa;102&#x9;inconnu&#xd;&#xa;103&#x9;Ã  dÃ©terminer&#xd;&#xa;6301&#x9;vanne Ã  opercule&#xd;&#xa;6302&#x9;vanne clayton&#xd;&#xa;6303&#x9;vanne annulaire&#xd;&#xa;6306&#x9;limiteur de dÃ©bit&#xd;&#xa;6307&#x9;clapet anti-retour&#xd;&#xa;6309&#x9;sprinkler&#xd;&#xa;6310&#x9;vanne&#xd;&#xa;6311&#x9;vanne papillon&#xd;&#xa;6312&#x9;Elgef&#xd;&#xa;6313&#x9;1/4 de tour&#xd;&#xa;6314&#x9;soupape manuelle&#xd;&#xa;6315&#x9;soupape automatique&#xd;&#xa;&#xd;&#xa; &#xd;&#xa; */&#xd;&#xa;&#xd;&#xa; 103&#xd;&#xa;&#x9; &#xd;&#xa;&#x9; " length="10" type="2" comment="" name="fk_valve_type"/>
+        <field typeName="integer" precision="0" expression="103" length="10" type="2" comment="" name="fk_object_reference"/>
+      </expressionfields>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="fid">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="nom_numero">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fonction_vanne">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="etat_connexion">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="type_transmission">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="centrale_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="annee_installation">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="proprietaire">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="etat_exploitation">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="remarque">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="orisymbole">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="zone_pression">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="dossier_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="precision_plan">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="provenance">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="elevation">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="altitude">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_valve_function">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_valve_actuation">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_pipe">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_handle_precision">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_handle_precisionalti">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_maintenance">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="diameter_nominal">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="closed">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="networkseparation">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_district">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_pressurezone">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_distributor">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_precision">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_precisionalti">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_status">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_folder">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="year">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="year_end">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="identification">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="remark">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_valve_type">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fk_object_reference">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="69,215,101,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="8.25"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="3"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Normal"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="6"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>fid</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Étiquette"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>.</annotationform>
+      <aliases>
+        <alias field="fid" index="0" name=""/>
+        <alias field="nom_numero" index="1" name=""/>
+        <alias field="fonction_vanne" index="2" name=""/>
+        <alias field="etat_connexion" index="3" name=""/>
+        <alias field="type_transmission" index="4" name=""/>
+        <alias field="centrale_id" index="5" name=""/>
+        <alias field="annee_installation" index="6" name=""/>
+        <alias field="proprietaire" index="7" name=""/>
+        <alias field="etat_exploitation" index="8" name=""/>
+        <alias field="remarque" index="9" name=""/>
+        <alias field="orisymbole" index="10" name=""/>
+        <alias field="zone_pression" index="11" name=""/>
+        <alias field="dossier_id" index="12" name=""/>
+        <alias field="precision_plan" index="13" name=""/>
+        <alias field="provenance" index="14" name=""/>
+        <alias field="elevation" index="15" name=""/>
+        <alias field="altitude" index="16" name=""/>
+        <alias field="fk_valve_function" index="17" name=""/>
+        <alias field="fk_valve_actuation" index="18" name=""/>
+        <alias field="fk_pipe" index="19" name=""/>
+        <alias field="fk_handle_precision" index="20" name=""/>
+        <alias field="fk_handle_precisionalti" index="21" name=""/>
+        <alias field="fk_maintenance" index="22" name=""/>
+        <alias field="diameter_nominal" index="23" name=""/>
+        <alias field="closed" index="24" name=""/>
+        <alias field="networkseparation" index="25" name=""/>
+        <alias field="fk_district" index="26" name=""/>
+        <alias field="fk_pressurezone" index="27" name=""/>
+        <alias field="fk_distributor" index="28" name=""/>
+        <alias field="fk_precision" index="29" name=""/>
+        <alias field="fk_precisionalti" index="30" name=""/>
+        <alias field="fk_status" index="31" name=""/>
+        <alias field="fk_folder" index="32" name=""/>
+        <alias field="year" index="33" name=""/>
+        <alias field="year_end" index="34" name=""/>
+        <alias field="identification" index="35" name=""/>
+        <alias field="remark" index="36" name=""/>
+        <alias field="fk_valve_type" index="37" name=""/>
+        <alias field="fk_object_reference" index="38" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="fid"/>
+          <column width="-1" hidden="0" type="field" name="nom_numero"/>
+          <column width="-1" hidden="0" type="field" name="fonction_vanne"/>
+          <column width="-1" hidden="0" type="field" name="etat_connexion"/>
+          <column width="-1" hidden="0" type="field" name="type_transmission"/>
+          <column width="-1" hidden="0" type="field" name="centrale_id"/>
+          <column width="-1" hidden="0" type="field" name="annee_installation"/>
+          <column width="-1" hidden="0" type="field" name="proprietaire"/>
+          <column width="-1" hidden="0" type="field" name="etat_exploitation"/>
+          <column width="-1" hidden="0" type="field" name="remarque"/>
+          <column width="-1" hidden="0" type="field" name="orisymbole"/>
+          <column width="-1" hidden="0" type="field" name="zone_pression"/>
+          <column width="-1" hidden="0" type="field" name="dossier_id"/>
+          <column width="-1" hidden="0" type="field" name="precision_plan"/>
+          <column width="-1" hidden="0" type="field" name="provenance"/>
+          <column width="-1" hidden="0" type="field" name="elevation"/>
+          <column width="-1" hidden="1" type="actions"/>
+          <column width="-1" hidden="0" type="field" name="altitude"/>
+          <column width="-1" hidden="0" type="field" name="fk_valve_function"/>
+          <column width="-1" hidden="0" type="field" name="fk_valve_actuation"/>
+          <column width="-1" hidden="0" type="field" name="fk_pipe"/>
+          <column width="-1" hidden="0" type="field" name="fk_handle_precision"/>
+          <column width="-1" hidden="0" type="field" name="fk_handle_precisionalti"/>
+          <column width="-1" hidden="0" type="field" name="fk_maintenance"/>
+          <column width="-1" hidden="0" type="field" name="diameter_nominal"/>
+          <column width="-1" hidden="0" type="field" name="closed"/>
+          <column width="-1" hidden="0" type="field" name="networkseparation"/>
+          <column width="-1" hidden="0" type="field" name="fk_district"/>
+          <column width="-1" hidden="0" type="field" name="fk_pressurezone"/>
+          <column width="-1" hidden="0" type="field" name="fk_distributor"/>
+          <column width="-1" hidden="0" type="field" name="fk_precision"/>
+          <column width="-1" hidden="0" type="field" name="fk_precisionalti"/>
+          <column width="-1" hidden="0" type="field" name="fk_status"/>
+          <column width="-1" hidden="0" type="field" name="fk_folder"/>
+          <column width="-1" hidden="0" type="field" name="year"/>
+          <column width="-1" hidden="0" type="field" name="year_end"/>
+          <column width="-1" hidden="0" type="field" name="identification"/>
+          <column width="-1" hidden="0" type="field" name="remark"/>
+          <column width="-1" hidden="0" type="field" name="fk_valve_type"/>
+          <column width="-1" hidden="0" type="field" name="fk_object_reference"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
+
+Utilisez cette fonction pour ajouter plus de fonctionnalités à vos formulaires.
+
+Entrez le nom de la fonction dans le champ "Fonction d'initialisation Python".
+Voici un exemple à suivre:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="fid" expression=""/>
+        <default field="nom_numero" expression=""/>
+        <default field="fonction_vanne" expression=""/>
+        <default field="etat_connexion" expression=""/>
+        <default field="type_transmission" expression=""/>
+        <default field="centrale_id" expression=""/>
+        <default field="annee_installation" expression=""/>
+        <default field="proprietaire" expression=""/>
+        <default field="etat_exploitation" expression=""/>
+        <default field="remarque" expression=""/>
+        <default field="orisymbole" expression=""/>
+        <default field="zone_pression" expression=""/>
+        <default field="dossier_id" expression=""/>
+        <default field="precision_plan" expression=""/>
+        <default field="provenance" expression=""/>
+        <default field="elevation" expression=""/>
+        <default field="altitude" expression=""/>
+        <default field="fk_valve_function" expression=""/>
+        <default field="fk_valve_actuation" expression=""/>
+        <default field="fk_pipe" expression=""/>
+        <default field="fk_handle_precision" expression=""/>
+        <default field="fk_handle_precisionalti" expression=""/>
+        <default field="fk_maintenance" expression=""/>
+        <default field="diameter_nominal" expression=""/>
+        <default field="closed" expression=""/>
+        <default field="networkseparation" expression=""/>
+        <default field="fk_district" expression=""/>
+        <default field="fk_pressurezone" expression=""/>
+        <default field="fk_distributor" expression=""/>
+        <default field="fk_precision" expression=""/>
+        <default field="fk_precisionalti" expression=""/>
+        <default field="fk_status" expression=""/>
+        <default field="fk_folder" expression=""/>
+        <default field="year" expression=""/>
+        <default field="year_end" expression=""/>
+        <default field="identification" expression=""/>
+        <default field="remark" expression=""/>
+        <default field="fk_valve_type" expression=""/>
+        <default field="fk_object_reference" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList">
+        <value>pipe20180117104944737</value>
+        <value>valve20180117104959571</value>
+        <value>hydrant20180117105053779</value>
+      </LayerSnappingList>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>enabled</value>
+        <value>enabled</value>
+        <value>enabled</value>
+      </LayerSnappingEnabledList>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
+      <DefaultSnapType type="QString">to vertex and segment</DefaultSnapType>
+      <DefaultSnapTolerance type="double">1</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>1.000000</value>
+        <value>1.000000</value>
+        <value>1.000000</value>
+      </LayerSnappingToleranceList>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+</qgis>
