@@ -9,7 +9,7 @@ The advantage is no need to make complex postgresql queries and errors can be co
 
 A simple copy/paste between initial and qwat's layers can be used. That solution works for small dataset and was successfully applied for approx 10000 pipes. You can also import the data into postgis and insert it to the corresponding views.
 ```
-INSERT INTO qwat_od.pipe FROM my_pipe_import;
+INSERT INTO qwat_od.pipe SELECT all FROM import_epot.conduite;
 ```
 
 ## Prerequisites
