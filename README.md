@@ -107,7 +107,7 @@ Qgis do not allow to copy virtual fields and expressions between layers.
 
 You can do that by editing the *.qgs project file and copy/paste the <expressionfields> tags. 
 
-Here is an example for hydrant (taken frome sample.qgs)
+Here is an example for hydrant (taken from [sample.qgs](https://github.com/nliaudat/qwat-import-sample/tree/master/sample_virtual_fields/sample.qgs))
 ```
       <expressionfields>
         <field typeName="int2" precision="0" expression="103" length="-1" type="2" comment="" name="fk_provider"/>
