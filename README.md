@@ -38,7 +38,7 @@ def is_contained_in(layername, column, feature, parent):
 ```
 You need to add that script in qgis expression editor in the function tab.
 
-### Optional : Insert[additional_pipe_material.sql](https://github.com/nliaudat/qwat-import-sample/raw/master/qwat-import-sample/sample_virtual_fields/additional_pipe_material.sql) with pgAdmin : 
+### Optional : Insert [additional_pipe_material.sql](https://github.com/nliaudat/qwat-import-sample/raw/master/sample_virtual_fields/additional_pipe_material.sql) with pgAdmin : 
 ```
 INSERT INTO qwat_vl.pipe_material (id, vl_active, short_fr, value_fr, diameter, diameter_nominal, diameter_internal, diameter_external, pressure_nominal) VALUES (10007,true,'PVC','Chlorure de polyvinyle',160,160,123.4,160,null);
 ....
