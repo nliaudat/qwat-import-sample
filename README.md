@@ -159,4 +159,6 @@ INSERT INTO qwat_od.pipe(geometry,fk_function, fk_installmethod, fk_material, fk
 SELECT geometry, fk_function, fk_installmethod, fk_material, fk_distributor, fk_precision, fk_bedding, fk_protection, fk_status, fk_watertype, fk_folder, year, year_rehabilitation, year_end, pressure_nominal, remark, label_1_text, fk_district, fk_pressurezone 
 FROM import_epot.conduite
 
+-- be patient ;) - INSERT 10774 ==> Query returned successfully in 8 min.
+
   ```
