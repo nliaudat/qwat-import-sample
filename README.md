@@ -8,9 +8,7 @@ The approach chosen is to add virtual field to our initial data, using [Qgis exp
 The advantage is no need to make complex postgresql queries and errors can be corrected on the fly before final import. 
 
 A simple copy/paste between initial and qwat's layers can be used. That solution works for small dataset and was successfully applied for approx 10000 pipes. You can also import the data into postgis and insert it to the corresponding views.
-```
-INSERT INTO qwat_od.pipe SELECT all FROM import_epot.conduite;
-```
+
 
 ## Prerequisites
 <img align="right" width="500" height="280" src="https://github.com/nliaudat/qwat-import-sample/raw/master/documentation/imgs/district.png">
@@ -138,3 +136,27 @@ Here is an example for hydrant (taken from [sample.qgs](https://github.com/nliau
         <field typeName="string" precision="0" expression="" length="500" type="10" comment="" name="remark"/>
       </expressionfields>
   ```    
+  
+  
+  ## postgresql copy from one to another table
+  
+Qgis may have some [issues](https://issues.qgis.org/issues/16770) on copy/paste entities. 
+
+In my case, some altimetric value disapeared on about 600 pipes out of 10000, but never on points layer. 
+
+I recommend to import the geopackage into postgis and then
+
+```
+  -- better to remove old id
+ALTER TABLE import_epot.conduite DROP COLUMN id;
+
+-- make sur geometry column have same name as destination
+ALTER TABLE import_epot.conduite RENAME geom TO geometry;
+ALTER TABLE import_epot.conduite ALTER COLUMN geometry TYPE public.geometry;
+	
+--importation
+INSERT INTO qwat_od.pipe(geometry,fk_function, fk_installmethod, fk_material, fk_distributor, fk_precision, fk_bedding, fk_protection, fk_status, fk_watertype, fk_folder, year, year_rehabilitation, year_end, pressure_nominal, remark, label_1_text, fk_district, fk_pressurezone)
+SELECT geometry, fk_function, fk_installmethod, fk_material, fk_distributor, fk_precision, fk_bedding, fk_protection, fk_status, fk_watertype, fk_folder, year, year_rehabilitation, year_end, pressure_nominal, remark, label_1_text, fk_district, fk_pressurezone 
+FROM import_epot.conduite
+
+  ```
