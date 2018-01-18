@@ -100,3 +100,41 @@ Look at the [sample import data](https://github.com/nliaudat/qwat-import-sample/
 
 You need to respect some import order  (valve must clip on pipes, etc)
 
+
+## Copy/paste expression fields
+
+Qgis do not allow to copy virtual fields and expressions between layers.
+
+You can do that by editing the *.qgs project file and copy/paste the <expressionfields> tags. 
+
+Here is an example for hydrant (taken frome sample.qgs)
+```
+      <expressionfields>
+        <field typeName="int2" precision="0" expression="103" length="-1" type="2" comment="" name="fk_provider"/>
+        <field typeName="int2" precision="0" expression="103" length="-1" type="2" comment="" name="fk_model_sup"/>
+        <field typeName="int2" precision="0" expression="103" length="-1" type="2" comment="" name="fk_model_inf"/>
+        <field typeName="int2" precision="0" expression="103" length="-1" type="2" comment="" name="fk_material"/>
+        <field typeName="int2" precision="0" expression="103" length="-1" type="2" comment="" name="fk_output"/>
+        <field typeName="int2" precision="0" expression="0" length="-1" type="2" comment="" name="underground"/>
+        <field typeName="int2" precision="0" expression="null" length="-1" type="2" comment="" name="marked"/>
+        <field typeName="double" precision="5" expression="" length="6" type="6" comment="" name="pressure_static"/>
+        <field typeName="double" precision="5" expression="" length="6" type="6" comment="" name="pressure_dynamic"/>
+        <field typeName="double" precision="5" expression="" length="6" type="6" comment="" name="flow"/>
+        <field typeName="int2" precision="0" expression="null" length="-1" type="2" comment="" name="observation_date"/>
+        <field typeName="text" precision="-1" expression="null" length="-1" type="10" comment="" name="observation_source"/>
+        <field typeName="text" precision="-1" expression="" length="-1" type="10" comment="" name="identification"/>
+        <field typeName="int2" precision="0" expression="" length="-1" type="2" comment="" name="fk_distributor"/>
+        <field typeName="int2" precision="0" expression="" length="-1" type="2" comment="" name="fk_status"/>
+        <field typeName="int2" precision="0" expression="" length="-1" type="2" comment="" name="fk_folder"/>
+        <field typeName="int2" precision="0" expression="null" length="-1" type="2" comment="" name="fk_locationtype"/>
+        <field typeName="int2" precision="0" expression="" length="-1" type="2" comment="" name="fk_precision"/>
+        <field typeName="int2" precision="0" expression="1121" length="-1" type="2" comment="" name="fk_precisionalti"/>
+        <field typeName="int2" precision="0" expression="103" length="-1" type="2" comment="" name="fk_object_reference"/>
+        <field typeName="int2" precision="0" expression="" length="-1" type="2" comment="" name="fk_pressurezone"/>
+        <field typeName="int2" precision="0" expression="" length="-1" type="2" comment="" name="year"/>
+        <field typeName="int2" precision="0" expression="null" length="-1" type="2" comment="" name="year_end"/>
+        <field typeName="int2" precision="0" expression="" length="-1" type="2" comment="" name="fk_district"/>
+        <field typeName="int2" precision="0" expression="null" length="-1" type="2" comment="" name="fk_pressurezone"/>
+        <field typeName="string" precision="0" expression="" length="500" type="10" comment="" name="remark"/>
+      </expressionfields>
+  ```    
