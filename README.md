@@ -162,3 +162,9 @@ FROM import.pipe
 -- be patient ;) - INSERT 10774 ==> Query returned successfully in 8 min.
 
   ```
+
+## Tricks
+
+To speed up importation, you can disable the logging trigger with pgAdmin
+
+<img width="273" height="250" src="https://github.com/nliaudat/qwat-import-sample/raw/master/documentation/imgs/disable_trigger.png">
