@@ -138,13 +138,16 @@ Here is an example for hydrant (taken from [sample.qgs](https://github.com/nliau
   ```    
   
   
-  ## Qgis copy/paste random issue
-  
-Qgis may have some [issues](https://issues.qgis.org/issues/16770) on copy/paste entities. 
 
-In my case, some altimetric value disappeared becoming 2D only on about 600 pipes out of 10000. The bug do not appears on point layer. 
 
-I recommend to import the geopackage into postgis and then
+## Tricks
+
+### Import speed
+To speed up importation, you can disable the logging trigger with pgAdmin
+
+<img width="273" height="250" src="https://github.com/nliaudat/qwat-import-sample/raw/master/documentation/imgs/disable_trigger.png">
+
+### Postgis copy import table
 
 ```
   -- better to remove old id
@@ -162,9 +165,3 @@ FROM import.pipe
 -- be patient ;) - INSERT 10774 ==> Query returned successfully in 8 min.
 
   ```
-
-## Tricks
-
-To speed up importation, you can disable the logging trigger with pgAdmin
-
-<img width="273" height="250" src="https://github.com/nliaudat/qwat-import-sample/raw/master/documentation/imgs/disable_trigger.png">
