@@ -138,7 +138,7 @@ Here is an example for hydrant (taken from [sample.qgs](https://github.com/nliau
   ```    
   
   
-  ## postgresql copy from one to another table
+  ## Qgis copy/paste random issue
   
 Qgis may have some [issues](https://issues.qgis.org/issues/16770) on copy/paste entities. 
 
