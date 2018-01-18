@@ -148,16 +148,16 @@ I recommend to import the geopackage into postgis and then
 
 ```
   -- better to remove old id
-ALTER TABLE import_epot.conduite DROP COLUMN id;
+ALTER TABLE import.pipe DROP COLUMN id;
 
 -- make sur geometry column have same name as destination
-ALTER TABLE import_epot.conduite RENAME geom TO geometry;
-ALTER TABLE import_epot.conduite ALTER COLUMN geometry TYPE public.geometry;
+ALTER TABLE import.pipe RENAME geom TO geometry;
+ALTER TABLE import.pipe ALTER COLUMN geometry TYPE public.geometry;
 	
---importation
+--for pipes work directly on the qwat_od.pipe table, some others on view.
 INSERT INTO qwat_od.pipe(geometry,fk_function, fk_installmethod, fk_material, fk_distributor, fk_precision, fk_bedding, fk_protection, fk_status, fk_watertype, fk_folder, year, year_rehabilitation, year_end, pressure_nominal, remark, label_1_text, fk_district, fk_pressurezone)
 SELECT geometry, fk_function, fk_installmethod, fk_material, fk_distributor, fk_precision, fk_bedding, fk_protection, fk_status, fk_watertype, fk_folder, year, year_rehabilitation, year_end, pressure_nominal, remark, label_1_text, fk_district, fk_pressurezone 
-FROM import_epot.conduite
+FROM import.pipe
 
 -- be patient ;) - INSERT 10774 ==> Query returned successfully in 8 min.
 
