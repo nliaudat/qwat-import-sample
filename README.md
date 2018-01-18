@@ -163,5 +163,6 @@ SELECT geometry, fk_function, fk_installmethod, fk_material, fk_distributor, fk_
 FROM import.pipe
 
 -- be patient ;) - INSERT 10774 ==> Query returned successfully in 8 min.
+Truncate qwat_sys.logged_actions
 
   ```
