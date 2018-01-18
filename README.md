@@ -142,7 +142,7 @@ Here is an example for hydrant (taken from [sample.qgs](https://github.com/nliau
   
 Qgis may have some [issues](https://issues.qgis.org/issues/16770) on copy/paste entities. 
 
-In my case, some altimetric value disapeared on about 600 pipes out of 10000, but never on points layer. 
+In my case, some altimetric value disappeared becoming 2D only on about 600 pipes out of 10000. The bug do not appears on point layer. 
 
 I recommend to import the geopackage into postgis and then
 
