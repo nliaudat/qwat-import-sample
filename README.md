@@ -3,7 +3,7 @@
 ## Abstract
 <img align="right" width="132" height="184" src="https://github.com/nliaudat/qwat-import-sample/raw/master/documentation/imgs/virtual_field.png">
 
-The approach chosen is to add virtual field to our initial data, using [Qgis expressions](https://docs.qgis.org/2.18/fr/docs/user_manual/working_with_vector/expression.html) to adapt the values to qgis data model in a graphical way. 
+The approach chosen is to add virtual field to our initial data, using [Qgis expressions](https://docs.qgis.org/2.18/fr/docs/user_manual/working_with_vector/expression.html) to adapt the values to Qwat data model in a graphical way. 
 
 The advantage is no need to make complex postgresql queries and errors can be corrected on the fly before final import. 
 
