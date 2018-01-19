@@ -150,8 +150,6 @@ To speed up importation, you can disable the logging trigger with pgAdmin
 ### Postgis copy import table
 
 ```
-  -- better to remove old id
-ALTER TABLE import.pipe DROP COLUMN id;
 
 -- make sur geometry column have same name as destination
 ALTER TABLE import.pipe RENAME geom TO geometry;
@@ -163,6 +161,15 @@ SELECT geometry, fk_function, fk_installmethod, fk_material, fk_distributor, fk_
 FROM import.pipe
 
 -- be patient ;) - INSERT 10774 ==> Query returned successfully in 8 min.
+
+
+--valve
+INSERT INTO qwat_od.valve(
+	fk_valve_type, fk_valve_function, fk_valve_actuation, fk_pipe, fk_handle_precision, fk_handle_precisionalti, diameter_nominal, closed, networkseparation, fk_district, fk_pressurezone, fk_distributor, fk_precision, fk_precisionalti, fk_status, fk_object_reference, fk_folder, year, year_end, altitude, identification, remark, geometry)
+	SELECT fk_valve_type, fk_valve_function, fk_valve_actuation, fk_pipe, fk_handle_precision, fk_handle_precisionalti, diameter_nominal, closed::boolean, networkseparation::boolean, fk_district, fk_pressurezone, fk_distributor, fk_precision, fk_precisionalti, fk_status, fk_object_reference, fk_folder, year, year_end, altitude, identification, remark, geometry
+	from import.valve
+
+
 Truncate qwat_sys.logged_actions
 
   ```
