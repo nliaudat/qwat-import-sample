@@ -147,6 +147,23 @@ To speed up importation, you can disable the logging trigger with pgAdmin
 
 <img width="273" height="250" src="https://github.com/nliaudat/qwat-import-sample/raw/master/documentation/imgs/disable_trigger.png">
 
+## 3D valves (bug ?)
+
+If you import 2d valve with altitude, the current data model updates the corresponding pipe nodes to 2D. You'll have to convert the valve to full 3D before importing. 
+
+```
+ALTER TABLE import.valve ADD COLUMN geom3d geometry(POINTZ,2056);
+
+--Geopackage is imported in multipoint by default, so convert it back multipoint to point
+ALTER TABLE import.valve  ALTER COLUMN geom TYPE geometry(Point,2056) USING ST_GeometryN(geom, 1);
+
+-- make 3D
+UPDATE import.valve SET geom3d = ST_SetSRID(ST_MakePoint(ST_X(geom), ST_Y(geom), altitude),2056);
+
+ALTER TABLE import.valve  RENAME geom3d TO geometry;
+ALTER TABLE import.valveDROP COLUMN geom;
+```
+
 ### Postgis copy import table
 
 ```
